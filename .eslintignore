@@ -1,0 +1,4 @@
+node_modules
+webpack.*.js
+*.config.js
+__mocks__

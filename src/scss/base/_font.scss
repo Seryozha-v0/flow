@@ -1,0 +1,160 @@
+@font-face {
+  src: url('../fonts/figtree/Figtree-Regular.woff2') format('woff2'),
+    url('../fonts/figtree/Figtree-Regular.woff') format('woff'),
+    url('../fonts/figtree/Figtree-Regular.ttf') format('ttf');
+  font-family: 'Figtree';
+  font-weight: 400;
+}
+
+@font-face {
+  src: url('../fonts/figtree/Figtree-Medium.woff2') format('woff2'),
+    url('../fonts/figtree/Figtree-Medium.woff') format('woff'),
+    url('../fonts/figtree/Figtree-Medium.ttf') format('ttf');
+  font-family: 'Figtree';
+  font-weight: 500;
+}
+
+@mixin headline-100 {
+  font-family: 'Figtree';
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 90px;
+  letter-spacing: -0.05em;
+}
+@mixin headline-200 {
+  font-family: 'Figtree';
+  font-weight: 400;
+  font-size: 76px;
+  line-height: 80px;
+  letter-spacing: -0.03em;
+}
+@mixin headline-300 {
+  font-family: 'Figtree';
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 68px;
+  letter-spacing: -0.03em;
+}
+@mixin headline-400 {
+  font-family: 'Figtree';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+}
+
+@mixin title-100 {
+  font-family: 'Figtree';
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: -0.01em;
+}
+@mixin title-200 {
+  font-family: 'Figtree';
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+}
+@mixin title-300 {
+  font-family: 'Figtree';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.01em;
+}
+@mixin title-400 {
+  font-family: 'Figtree';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+}
+
+@mixin body-100 {
+  font-family: 'Figtree';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.0004em;
+}
+@mixin body-200 {
+  font-family: 'Figtree';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.0004em;
+}
+@mixin body-300 {
+  font-family: 'Figtree';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.0004em;
+}
+@mixin body-400 {
+  font-family: 'Figtree';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+
+@mixin label-100 {
+  font-family: 'Figtree';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.0004em;
+}
+@mixin label-200 {
+  font-family: 'Figtree';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.0004em;
+}
+@mixin label-300 {
+  font-family: 'Figtree';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.0004em;
+}
+@mixin label-400 {
+  font-family: 'Figtree';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+
+@mixin link-100 {
+  font-family: 'Figtree';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.0004em;
+}
+@mixin link-200 {
+  font-family: 'Figtree';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.0004em;
+}
+@mixin link-300 {
+  font-family: 'Figtree';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.0004em;
+}
+@mixin link-400 {
+  font-family: 'Figtree';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0em;
+}

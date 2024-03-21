@@ -1,0 +1,17 @@
+image: "Ubuntu2004"
+stack: node 18
+branches:
+  only:
+    - main
+cache: node_modules
+install: 
+  - npm install
+build: off
+build_script:
+  - npm run build
+deploy_script:
+  - git config --global credential.helper store
+  - git config --global user.name Seryozha
+  - git config --global user.email arzumanyan.seroj@yandex.ru
+  - echo "https://$GITHUB_TOKEN:x-oauth-basic@github.com" > "$HOME/.git-credentials"
+  - npx gh-pages --dist dist

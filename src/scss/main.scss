@@ -1,0 +1,15 @@
+@import 'normalize-scss/sass/normalize/import-now';
+
+@import './base/font';
+@import './base/var';
+
+body {
+  @include body-100;
+  color: var(--primary);
+}
+
+.container {
+  width: min(100%, 1220px);
+  margin: 0 auto;
+  padding: 0 2px;
+}
