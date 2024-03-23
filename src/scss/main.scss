@@ -13,3 +13,8 @@ body {
   margin: 0 auto;
   padding: 0 2px;
 }
+
+@import './components/header';
+@import './components/logo';
+@import './components/menu';
+@import './components/btn';

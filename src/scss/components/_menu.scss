@@ -1,0 +1,31 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  &__item {
+    @include label-200;
+    color: var(--secondary-950);
+    transition: .4s color;
+
+    &:hover {
+      color: var(--secondary-900);
+    }
+
+    &:active {
+      color: var(--secondary-950);
+    }
+  }
+
+  &__item + &__item {
+    margin-left: 32px;
+  }
+
+  &__link {
+    color: inherit;
+    text-decoration: none;
+  }
+}
