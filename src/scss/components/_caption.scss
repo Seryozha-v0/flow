@@ -1,0 +1,27 @@
+.caption {
+  position: relative;
+  padding-left: 16px;
+  
+  @include label-300;
+  color: var(--primary);
+
+  &:before, &:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    translate: 0 -50%;
+    width: 12px;
+    height: 12px;
+    background: var(--secondary-950);
+    border-radius: 2px;
+  }
+
+  &:after {
+    left: calc((12px - 8px) / 2);
+    width: 8px;
+    height: 8px;
+    background: var(--primary-300);
+    border-radius: 100%;
+  }
+}

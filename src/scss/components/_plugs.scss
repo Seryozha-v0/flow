@@ -1,0 +1,54 @@
+.plugs {
+  padding: 12px;
+  border-radius: 8px;
+  background: #f5f4f4;
+
+  &__title {
+    @include label-300;
+    color: var(--gray-800);
+  }
+
+  &__list {
+    margin: 0;
+    margin-top: 12px;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-radius: 6px;
+    background: var(--white);
+    box-shadow: 0 0 0 1px rgba(163, 166, 174, 0.13), 0 1px 2px 0 rgba(195, 199, 203, 0.08);
+
+    @include label-300;
+    color: var(--primary);
+  }
+
+  &__type, &__badges {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    width: 22px;
+    height: 22px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &__name {
+    margin-left: 12px;
+  }
+
+  .badge + .badge {
+    margin-left: 4px;
+  }
+}

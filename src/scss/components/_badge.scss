@@ -1,0 +1,18 @@
+.badge {
+  padding: 2px 8px;
+  border-radius: 96px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: center;
+
+  &_green {
+    color: #192117;
+    background: #d6f1cf;
+  }
+
+  &_orange {
+    color: #5c3d1f;
+    background: #ffebb7;
+  }
+}

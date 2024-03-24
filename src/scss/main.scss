@@ -3,6 +3,10 @@
 @import './base/font';
 @import './base/var';
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   @include body-100;
   color: var(--primary);
@@ -14,7 +18,17 @@ body {
   padding: 0 2px;
 }
 
-@import './components/header';
+h1 {
+  @include headline-100;
+}
+
 @import './components/logo';
 @import './components/menu';
 @import './components/btn';
+@import './components/caption';
+@import './components/charger';
+@import './components/plugs';
+@import './components/badge';
+
+@import './sections/header';
+@import './sections/promo';
