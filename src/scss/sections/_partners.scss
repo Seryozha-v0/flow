@@ -1,0 +1,37 @@
+.partners {
+  padding: 96px 0;
+  border-bottom: var(--borderBottom);
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &_label {
+    @include label-200;
+    color: var(--primary);
+  }
+
+  &__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__item {
+    width: 100%;
+    height: 32px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &__item + &__item {
+    margin-left: 88px;
+  }
+}

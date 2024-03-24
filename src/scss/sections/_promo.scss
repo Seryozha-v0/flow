@@ -1,6 +1,7 @@
 .promo {
   position: relative;
-  padding: 86px 0 84px;
+  padding: 86px 0 84px;  
+  border-bottom: var(--borderBottom);
 
   &__content {
     max-width: 50%;
