@@ -7,6 +7,7 @@
   outline: 2px solid transparent;
   outline-offset: 2px;
   cursor: pointer;
+  text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 
   @include label-100;
@@ -90,6 +91,42 @@
     &:focus {
       border-color: var(--white);
       outline-color: var(--white);
+    }
+  }
+
+  &_link, &_linkWhite {
+    display: inline-flex;
+    padding: 0;
+    background: transparent;
+    transition: .4s color;
+
+    &[disabled] {
+      border-color: var(--gray-400);
+      color: var(--gray-400);
+    }
+  }
+  
+  &_link {
+    color: var(--secondary-950);
+
+    &:hover {
+      color: var(--secondary-900);
+    }
+
+    &:active {
+      color: var(--secondary-950);
+    }
+  }
+
+  &_linkWhite {
+    color: var(--white);
+
+    &:hover {
+      color: rgba(255, 255, 255, 0.72);
+    }
+
+    &:active {
+      color: var(--white);
     }
   }
 

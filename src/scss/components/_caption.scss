@@ -24,4 +24,8 @@
     background: var(--primary-300);
     border-radius: 100%;
   }
+
+  &_light:before {
+    background: transparent;
+  }
 }

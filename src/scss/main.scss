@@ -18,6 +18,12 @@ body {
   padding: 0 2px;
 }
 
+hr {
+  margin: 0;
+  border: none;
+  border-bottom: var(--borderBottom);
+}
+
 h1 {
   @include headline-100;
 }
@@ -29,7 +35,10 @@ h1 {
 @import './components/charger';
 @import './components/plugs';
 @import './components/badge';
+@import './components/title';
+@import './components/customIcon';
 
 @import './sections/header';
 @import './sections/promo';
 @import './sections/partners';
+@import './sections/solutions';
