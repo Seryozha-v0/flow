@@ -1,5 +1,5 @@
 .btn {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   margin: 0;
   padding: 16px 24px;
@@ -95,7 +95,6 @@
   }
 
   &_link, &_linkWhite {
-    display: inline-flex;
     padding: 0;
     background: transparent;
     transition: .4s color;

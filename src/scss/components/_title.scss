@@ -1,4 +1,7 @@
 .title {
+  margin: 0;
+  padding: 0;
+
   @include headline-300;
   color: var(--primary);
 }

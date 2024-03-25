@@ -1,0 +1,27 @@
+.statistic {
+  padding: 78px 0;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__item {
+    @include body-100;
+    text-align: center;
+    color: var(--gray-800);
+  }
+
+  &__value {
+    @include headline-400;
+    color: var(--primary);
+  }
+
+  &__caption {
+    margin-top: 15px;
+  }
+}
