@@ -192,6 +192,10 @@
   text-transform: none;
   line-height: 1;
 
+  &_big-arrow-right:before {
+    content: "\ea1b";
+  }
+
   &_activity:before {
     content: "\e900";
   }

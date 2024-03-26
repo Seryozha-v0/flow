@@ -304,7 +304,7 @@
 
   </section>
 
-  <section class="statistic">
+  <div class="statistic">
     <div class="container">
 
       <ul class="statistic__list">
@@ -327,11 +327,11 @@
       </ul>
 
     </div>
-  </section>
+  </div>
 
   <section class="team">
-    <div class="container">
 
+    <div class="container">
       <div class="team__header">
 
         <div class="team__wrapper">
@@ -347,69 +347,107 @@
         </div>
 
         <div class="team__controls">
-          <div class="team__prev"></div>
-          <div class="team__next"></div>
+
+          <div class="team__prev">
+            <button class="btn btn_link btn_icon" disabled>
+              <span class="flowIcon flowIcon_big-arrow-right"></span>
+            </button>
+          </div>
+
+          <div class="team__next">
+            <button class="btn btn_link btn_icon">
+              <span class="flowIcon flowIcon_big-arrow-right"></span>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    
+    <div class="team__carousel">
+
+      <div class="team__person">
+
+        <div class="team__picture">
+          <img src="../img/team/wilson.jpg" alt="Willson">
+        </div>
+
+        <div class="team__info">
+          <div class="team__name">Jenny Wilson</div>
+          <div class="team__position">Senior Sustainability Consultant</div>
         </div>
 
       </div>
 
-      <div class="team__carousel">
+      <div class="team__person">
 
-        <div class="team__person">
-
-          <div class="team__picture">
-            <img src="../img/team/wilson.jpg" alt="Willson">
-          </div>
-
-          <div class="team__info">
-            <div class="team__name">Jenny Wilson</div>
-            <div class="team__position">Senior Sustainability Consultant</div>
-          </div>
-
+        <div class="team__picture">
+          <img src="../img/team/williamson.jpg" alt="Williamson">
         </div>
 
-        <div class="team__person">
-
-          <div class="team__picture">
-            <img src="../img/team/williamson.jpg" alt="Williamson">
-          </div>
-
-          <div class="team__info">
-            <div class="team__name">Cameron Williamson</div>
-            <div class="team__position">Senior Sustainability Consultant</div>
-          </div>
-
+        <div class="team__info">
+          <div class="team__name">Cameron Williamson</div>
+          <div class="team__position">Senior Sustainability Consultant</div>
         </div>
 
-        <div class="team__person">
+      </div>
 
-          <div class="team__picture">
-            <img src="../img/team/henry.jpg" alt="Henry">
-          </div>
+      <div class="team__person">
 
-          <div class="team__info">
-            <div class="team__name">Courtney Henry</div>
-            <div class="team__position">Energy Analysts</div>
-          </div>
-
+        <div class="team__picture">
+          <img src="../img/team/henry.jpg" alt="Henry">
         </div>
 
-        <div class="team__person">
+        <div class="team__info">
+          <div class="team__name">Courtney Henry</div>
+          <div class="team__position">Energy Analysts</div>
+        </div>
 
-          <div class="team__picture">
-            <img src="../img/team/russell.jpg" alt="Russell">
-          </div>
+      </div>
 
-          <div class="team__info">
-            <div class="team__name">Dianne Russell</div>
-            <div class="team__position">Senior Renewable Energy Engineer</div>
-          </div>
+      <div class="team__person">
 
+        <div class="team__picture">
+          <img src="../img/team/russell.jpg" alt="Russell">
+        </div>
+
+        <div class="team__info">
+          <div class="team__name">Dianne Russell</div>
+          <div class="team__position">Senior Renewable Energy Engineer</div>
+        </div>
+
+      </div>
+
+      <div class="team__person">
+
+        <div class="team__picture">
+          <img src="../img/team/russell.jpg" alt="Russell">
+        </div>
+
+        <div class="team__info">
+          <div class="team__name">Dianne Russell</div>
+          <div class="team__position">Senior Renewable Energy Engineer</div>
+        </div>
+
+      </div>
+
+      <div class="team__person">
+
+        <div class="team__picture">
+          <img src="../img/team/russell.jpg" alt="Russell">
+        </div>
+
+        <div class="team__info">
+          <div class="team__name">Dianne Russell</div>
+          <div class="team__position">Senior Renewable Energy Engineer</div>
         </div>
 
       </div>
 
     </div>
+
   </section>
 
   <section class="cta">
@@ -452,8 +490,8 @@
         <article class="blog__item">
 
           <div class="blog__preview">
-            <img src="../img/blog/panels.jpg" alt="Harnessing the Power of the Sun: Exploring the World of Solar Energy"
-              class="blog__img">
+            <!-- <img src="../img/blog/panels.jpg" alt="Harnessing the Power of the Sun: Exploring the World of Solar Energy"
+              class="blog__img"> -->
           </div>
 
           <div class="blog__badges">
@@ -501,9 +539,9 @@
   <section class="faq">
     <div class="container">
 
-      <div class="title title_center">
+      <h2 class="title title_center">
         FAQ
-      </div>
+      </h2>
 
       <div class="descr">
         Here you will find the answers to the frequently asked questions.

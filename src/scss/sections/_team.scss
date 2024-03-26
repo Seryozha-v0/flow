@@ -1,0 +1,81 @@
+.team {
+  padding: 104px 0;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .descr {
+    margin-top: 16px;
+  }
+
+  &__controls {
+    display: flex;
+
+    .flowIcon {
+      font-size: 40px;
+    }
+  }
+
+  &__prev,
+  &__next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__prev {
+    rotate: 180deg;
+    margin-right: 8px;
+  }
+
+  &__carousel {
+    margin-top: 88px;
+  }
+
+  &__person {
+    position: relative;
+    width: 312px;
+    height: 432px;
+    border-radius: 18px;
+    overflow: hidden;
+  }
+
+  &__picture {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__info {
+    position: absolute;
+    left: 16px;
+    right: calc(16px + 32px);
+    bottom: 16px;
+    padding: 16px;
+    background: var(--white);
+    border-radius: 8px;
+
+    @include body-300;
+    color: var(--gray-800);
+  }
+
+  &__name {
+    @include label-200;
+    color: var(--primary);
+  }
+
+  &__position {
+    margin-top: 4px;
+  }
+
+}

@@ -93,17 +93,6 @@
       outline-color: var(--white);
     }
   }
-
-  &_link, &_linkWhite {
-    padding: 0;
-    background: transparent;
-    transition: .4s color;
-
-    &[disabled] {
-      border-color: var(--gray-400);
-      color: var(--gray-400);
-    }
-  }
   
   &_link {
     color: var(--secondary-950);
@@ -129,8 +118,26 @@
     }
   }
 
+  &_link, &_linkWhite {
+    padding: 0;
+    border: none;
+    background: transparent;
+    transition: .4s color;
+
+    &[disabled] {
+      border-color: var(--gray-400);
+      color: var(--gray-400);
+    }
+  }
+
   .flowIcon {
     font-size: 20px;
     margin-left: 8px;
+  }
+
+  &_icon {
+    .flowIcon {
+      margin-left: 0;
+    }
   }
 }
