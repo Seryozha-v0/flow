@@ -3735,7 +3735,8 @@ var tns = function (options) {
 ;// CONCATENATED MODULE: ./src/js/script.js
 
 document.addEventListener('DOMContentLoaded', () => {
-  tns({
+  let pageWidth = window.outerWidth;
+  const aboutOprtions = {
     container: '.about__carousel',
     mode: 'carousel',
     items: 5,
@@ -3747,11 +3748,12 @@ document.addEventListener('DOMContentLoaded', () => {
     freezable: false,
     fixedWidth: 280,
     gutter: 32
-  });
+  };
+  tns(aboutOprtions);
   const team = document.querySelector('.team');
   const prevBtn = team.querySelector('.team__prev .btn');
   const nextBtn = team.querySelector('.team__next .btn');
-  const teamCarousel = tns({
+  let teamOptions = {
     container: '.team__carousel',
     mode: 'carousel',
     items: 4,
@@ -3759,9 +3761,12 @@ document.addEventListener('DOMContentLoaded', () => {
     controls: false,
     mouseDrag: true,
     loop: false,
+    freezable: false,
     fixedWidth: 312,
-    gutter: 32
-  });
+    gutter: 32,
+    edgePadding: (pageWidth - 1220 - 30) / 2
+  };
+  let teamCarousel;
   const checkSlides = e => {
     const {
       displayIndex,
@@ -3779,12 +3784,32 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     nextBtn.removeAttribute('disabled');
   };
-  teamCarousel.events.on('indexChanged', checkSlides);
-  prevBtn.onclick = () => {
-    teamCarousel.goTo('prev');
+  const createTeamCarousel = () => {
+    teamCarousel = tns(teamOptions);
+    teamCarousel.events.on('indexChanged', checkSlides);
+    prevBtn.onclick = () => {
+      teamCarousel.goTo('prev');
+    };
+    nextBtn.onclick = () => {
+      teamCarousel.goTo('next');
+    };
   };
-  nextBtn.onclick = () => {
-    teamCarousel.goTo('next');
+  createTeamCarousel();
+  const updateTeamCarousel = () => {
+    const {
+      displayIndex
+    } = teamCarousel.getInfo();
+    teamOptions = {
+      ...teamOptions,
+      startIndex: displayIndex - 1,
+      edgePadding: (pageWidth - 1220 - 30) / 2
+    };
+    teamCarousel.destroy();
+    createTeamCarousel();
+  };
+  window.onresize = e => {
+    pageWidth = e.target.outerWidth;
+    updateTeamCarousel();
   };
 });
 ;// CONCATENATED MODULE: ./src/index.js
