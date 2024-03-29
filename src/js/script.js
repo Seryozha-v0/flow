@@ -85,6 +85,20 @@ document.addEventListener('DOMContentLoaded', () => {
     createTeamCarousel();
   };
 
+  const blog = document.querySelector('.blog');
+  const blogItems = blog.querySelectorAll('.blog__item');
+
+  blogItems.forEach((item) => {
+    const descr = item.querySelector('.blog__descr');
+    if (!descr) return;
+
+    const text = descr.innerText;
+
+    if (text.length <= 160) return;
+
+    descr.textContent = `${text.substr(0, 160).replace(/\s+\S*$/, '')}…`;
+  });
+
   window.onresize = (e) => {
     pageWidth = e.target.innerWidth;
 
