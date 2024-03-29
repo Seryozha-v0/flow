@@ -1,7 +1,8 @@
 import { tns } from 'tiny-slider/src/tiny-slider';
+import { CONTAINER_WIDTH } from './constants';
 
 document.addEventListener('DOMContentLoaded', () => {
-  let pageWidth = window.outerWidth;
+  let pageWidth = window.innerWidth;
 
   const aboutOprtions = {
     container: '.about__carousel',
@@ -34,7 +35,6 @@ document.addEventListener('DOMContentLoaded', () => {
     freezable: false,
     fixedWidth: 312,
     gutter: 32,
-    edgePadding: (pageWidth - 1220 - 30) / 2,
   };
 
   let teamCarousel;
@@ -42,12 +42,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const checkSlides = (e) => {
     const { displayIndex, items, slideCount } = e;
 
-    if (displayIndex === 1) {
-      prevBtn.disabled = true;
-      return;
-    }
-
     prevBtn.removeAttribute('disabled');
+
+    if (displayIndex <= 1) {
+      prevBtn.disabled = true;
+    }
 
     if (displayIndex > (slideCount - items)) {
       nextBtn.disabled = true;
@@ -58,7 +57,8 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const createTeamCarousel = () => {
-    teamCarousel = tns(teamOptions);
+    const teamPadding = pageWidth <= CONTAINER_WIDTH ? 0 : (pageWidth - CONTAINER_WIDTH - 30) / 2;
+    teamCarousel = tns({ ...teamOptions, edgePadding: teamPadding });
 
     teamCarousel.events.on('indexChanged', checkSlides);
 
@@ -79,7 +79,6 @@ document.addEventListener('DOMContentLoaded', () => {
     teamOptions = {
       ...teamOptions,
       startIndex: displayIndex - 1,
-      edgePadding: (pageWidth - 1220 - 30) / 2,
     };
 
     teamCarousel.destroy();
@@ -87,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   window.onresize = (e) => {
-    pageWidth = e.target.outerWidth;
+    pageWidth = e.target.innerWidth;
 
     updateTeamCarousel();
   };

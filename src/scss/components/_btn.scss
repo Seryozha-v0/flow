@@ -23,7 +23,7 @@
     }
 
     &:focus {
-      outline-color: var(--secondary-950);
+      outline-color: #C2CCC2;
     }
 
     &[disabled] {
@@ -38,11 +38,11 @@
     transition: .4s outline, .4s background;
 
     &:hover {
-      background: var(--primary-450);
+      background: var(--primary-400);
     }
 
     &:focus {
-      outline-color: var(--primary-300);
+      outline-color: #C2CCC2;
     }
 
     &[disabled] {
@@ -72,7 +72,7 @@
 
     &:focus {
       border-color: var(--secondary-950);
-      outline-color: var(--secondary-950);
+      outline-color: #C2CCC2;
     }
 
     &[disabled] {
@@ -90,7 +90,7 @@
 
     &:focus {
       border-color: var(--white);
-      outline-color: var(--white);
+      outline-color: #C2CCC2;
     }
   }
   

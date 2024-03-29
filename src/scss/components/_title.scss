@@ -4,4 +4,8 @@
 
   @include headline-300;
   color: var(--primary);
+
+  &_light {
+    color: var(--white);
+  }
 }
