@@ -99,6 +99,37 @@ document.addEventListener('DOMContentLoaded', () => {
     descr.textContent = `${text.substr(0, 160).replace(/\s+\S*$/, '')}…`;
   });
 
+  const accordionColl = document.querySelectorAll('.accordion');
+  accordionColl.forEach((accordion) => {
+    accordion.onclick = () => {
+      const wrapper = accordion.querySelector('.accordion__wrapper');
+      const descr = accordion.querySelector('.accordion__descr');
+
+      if (accordion.classList.contains('accordion_active')) {
+        wrapper.style.height = `${descr.clientHeight}px`;
+
+        setTimeout(() => {
+          wrapper.style.height = '0px';
+          accordion.classList.remove('accordion_active');
+        }, 0);
+
+        setTimeout(() => {
+          wrapper.removeAttribute('style');
+          accordion.classList.remove('accordion_active');
+        }, 400);
+
+        return;
+      }
+
+      wrapper.style.height = `${descr.clientHeight}px`;
+
+      accordion.classList.add('accordion_active');
+      setTimeout(() => {
+        wrapper.removeAttribute('style');
+      }, 400);
+    };
+  });
+
   window.onresize = (e) => {
     pageWidth = e.target.innerWidth;
 

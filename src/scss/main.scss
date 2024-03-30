@@ -30,6 +30,10 @@ h1 {
   @include headline-100;
 }
 
+a {
+  text-decoration: none;
+}
+
 @import './components/logo';
 @import './components/menu';
 @import './components/btn';
@@ -40,6 +44,8 @@ h1 {
 @import './components/title';
 @import './components/descr';
 @import './components/customIcon';
+@import './components/accordion';
+@import './components/information';
 
 @import './sections/header';
 @import './sections/promo';
@@ -50,3 +56,4 @@ h1 {
 @import './sections/team';
 @import './sections/cta';
 @import './sections/blog';
+@import './sections/faq';
