@@ -1,0 +1,37 @@
+.review {
+  padding: 48px 64px;
+  width: min(100%, 800px);
+  background: var(--white);
+  box-shadow: 0 0 0 1px rgba(18, 105, 63, 0.08), 0 1px 2px 0 rgba(87, 92, 86, 0.16), 0 24px 24px -12px rgba(54, 74, 54, 0.06);
+  border-radius: 16px;
+
+  &__stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__star {
+    color: var(--primary-300);
+  }
+
+  &__text {
+    margin-top: 24px;
+
+    @include title-200;
+    color: var(--primary);
+    text-align: center;
+  }
+
+  &__author {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  &__name {
+    @include title-400;
+    color: var(--primary);
+  }
+
+
+}

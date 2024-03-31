@@ -1,0 +1,56 @@
+.reviews {
+  padding: 104px 0;
+
+  .descr {
+    margin-top: 24px;
+  }
+
+  &__wrapper {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 80px;
+    width: min(100%, 1008px);
+    padding: 0 80px;
+  }
+
+  &__carousel {
+    padding-top: 8px;
+    padding-bottom: 16px;
+
+    .review {
+      transition: .4s ease translate, .4s ease scale;
+    }
+
+    &_prevSlide {
+      position: relative;
+      translate: 93% 0;
+      z-index: -1;
+    }
+    &_nextSlide {
+      position: relative;
+      translate: -93% 0;
+      z-index: -1;
+    }
+
+    &_prevSlide, &_nextSlide {
+      background: var(--gray-50);
+      scale: .9;
+    }
+  }
+
+  &__nav {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    translate: 0 -50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .flowIcon {
+      font-size: 32px;
+      color: var(--gray-800);
+    }
+  }
+}

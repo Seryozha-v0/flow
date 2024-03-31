@@ -100,7 +100,9 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   const accordionColl = document.querySelectorAll('.accordion');
-  accordionColl.forEach((accordion) => {
+  accordionColl.forEach((item) => {
+    const accordion = item;
+
     accordion.onclick = () => {
       const wrapper = accordion.querySelector('.accordion__wrapper');
       const descr = accordion.querySelector('.accordion__descr');
@@ -129,6 +131,49 @@ document.addEventListener('DOMContentLoaded', () => {
       }, 400);
     };
   });
+
+  const reviewsOptions = {
+    container: '.reviews__carousel',
+    items: 1,
+    nav: false,
+    controls: false,
+    mouseDrag: true,
+    center: true,
+    fixedWidth: 800,
+  };
+
+  const reviewsCarousel = tns(reviewsOptions);
+
+  const reviews = document.querySelector('.reviews');
+  const prevReviewsBtn = reviews.querySelector('.reviews__prev .btn');
+  const nextReviewsBtn = reviews.querySelector('.reviews__next .btn');
+
+  prevReviewsBtn.onclick = () => {
+    reviewsCarousel.goTo('prev');
+  };
+
+  nextReviewsBtn.onclick = () => {
+    reviewsCarousel.goTo('next');
+  };
+
+  const handleActiveSlides = () => {
+    reviews.querySelector('.reviews__carousel_prevSlide')?.classList.remove('reviews__carousel_prevSlide');
+    reviews.querySelector('.reviews__carousel_nextSlide')?.classList.remove('reviews__carousel_nextSlide');
+
+    const reviewSlidesActiveColl = reviews.querySelectorAll('.tns-slide-active');
+
+    if (reviewSlidesActiveColl.length < 3) return;
+
+    const reviewPrevSlide = reviewSlidesActiveColl[0];
+    const reviewNextSlide = reviewSlidesActiveColl[2];
+
+    reviewPrevSlide.classList.add('reviews__carousel_prevSlide');
+    reviewNextSlide.classList.add('reviews__carousel_nextSlide');
+  };
+
+  handleActiveSlides();
+
+  reviewsCarousel.events.on('indexChanged', handleActiveSlides);
 
   window.onresize = (e) => {
     pageWidth = e.target.innerWidth;
