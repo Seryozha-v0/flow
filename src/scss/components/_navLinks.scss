@@ -1,0 +1,21 @@
+.navLinks {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+
+  &__item {
+    @include body-200;
+    color: var(--gray-800);
+
+    &:first-child {
+      @include label-200;
+      color: var(--primary);
+    }
+  }
+
+  &__item + &__item {
+    margin-top: 24px;
+  }
+}

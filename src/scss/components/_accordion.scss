@@ -4,6 +4,7 @@
   background: var(--white);
   box-shadow: 0 0 0 1px rgba(18, 105, 63, 0.08), 0 1px 2px 0 rgba(87, 92, 86, 0.16), 0 24px 24px -12px rgba(54, 74, 54, 0.06);
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 
   &__header {
     display: flex;

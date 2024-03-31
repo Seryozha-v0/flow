@@ -1,0 +1,29 @@
+.footer {
+  padding: 96px 0 55px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  &__nav {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(176px, 1fr));
+    gap: 32px;
+  }
+
+  &__socials {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  &__copyright {
+    margin-top: 163px;
+
+    @include body-300;
+    color: var(--gray-800);
+    text-align: right;
+  }
+}
