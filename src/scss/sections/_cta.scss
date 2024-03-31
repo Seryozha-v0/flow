@@ -2,6 +2,7 @@
   position: relative;
   padding: 72px 0;
   background: var(--secondary-950);
+  overflow: hidden;
 
   &__content {
     width: min(597px, 100%);

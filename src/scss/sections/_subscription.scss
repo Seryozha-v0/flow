@@ -1,0 +1,31 @@
+.subscription {
+  padding: 16px;
+
+  &__bg {
+    padding: 64px 0;
+    border-radius: 24px;
+    background: var(--secondary-950);
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h2 {
+    width: 50%;
+  }
+
+  &__form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: min(100%, 488px);
+  }
+
+  &__input {
+    margin-right: 8px;
+    width: min(100%, 331px);
+  }
+}

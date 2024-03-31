@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
     items: 1,
     nav: false,
     controls: false,
-    mouseDrag: true,
+    mouseDrag: false,
     center: true,
     fixedWidth: 800,
   };
