@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   @include body-100;
   color: var(--primary);
@@ -17,7 +21,8 @@ body {
 .container {
   width: min(100%, 1220px);
   margin: 0 auto;
-  padding: 0 2px;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 hr {
@@ -50,6 +55,8 @@ a {
 @import './components/input';
 @import './components/navLinks';
 @import './components/socialLink';
+@import './components/burgerBtn';
+@import './components/nav';
 
 @import './sections/header';
 @import './sections/promo';
@@ -64,3 +71,5 @@ a {
 @import './sections/reviews';
 @import './sections/subscription';
 @import './sections/footer';
+
+@import './base/media';

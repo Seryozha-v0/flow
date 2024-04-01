@@ -1,10 +1,24 @@
 .header {
+  position: relative;
   padding: 24px 0;
   border-bottom: var(--borderBottom);
+  background: var(--white);
 
   &__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  &__burger {
+    display: none;
+  }
+
+  &_sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
   }
 }

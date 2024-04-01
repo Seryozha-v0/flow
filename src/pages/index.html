@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>index</title>
+  <title>Flow</title>
 </head>
 
 <body>
@@ -17,27 +17,74 @@
           <img src="../img/logo.svg" class="logo__icon" alt="flow logotype">
         </div>
 
-        <nav>
-          <ul class="menu">
-            <li class="menu__item">
-              <a href="#" class="menu__link">About us</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Team</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Solutions</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Blog</a>
-            </li>
-          </ul>
+        <nav class="nav">
+          <div class="nav__wrapper">
+
+            <ul class="menu">
+              <li class="menu__item">
+                <a href="#" class="menu__link">About us</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Team</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Solutions</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Blog</a>
+              </li>
+            </ul>
+
+            <div class="nav__footer">
+
+              <div class="nav__newsletter">
+                <a href="#" class="socialLink socialLink_thin">
+                  <span class="customIcon customIcon_link">
+                    <span class="flowIcon flowIcon_mail"></span>
+                  </span>
+                  Newsletter
+                </a>
+              </div>
+
+              <div class="nav__socials">
+                <a href="#" class="socialLink socialLink_icon">
+                  <span class="customIcon customIcon_link">
+                    <img src="../img/social/facebook-app.svg" alt="facebook" class="flowIcon__img">
+                  </span>
+                </a>
+
+                <a href="#" class="socialLink socialLink_icon">
+                  <span class="customIcon customIcon_link">
+                    <img src="../img/social/instagram.svg" alt="instagram" class="flowIcon__img">
+                  </span>
+                </a>
+
+                <a href="#" class="socialLink socialLink_icon">
+                  <span class="customIcon customIcon_link">
+                    <img src="../img/social/linkedin.svg" alt="linkedin" class="flowIcon__img">
+                  </span>
+                </a>
+              </div>
+
+            </div>
+
+          </div>
         </nav>
 
-        <button class="btn btn_primary">
-          Get in touch
-          <span class="flowIcon flowIcon_arrow-right"></span>
-        </button>
+        <div class="header__getBtn">
+          <button class="btn btn_primary">
+            Get in touch
+            <span class="flowIcon flowIcon_arrow-right"></span>
+          </button>
+        </div>
+
+        <div class="header__burger">
+          <button class="burgerBtn" data-for="nav">
+            <span class="burgerBtn__lines"></span>
+            <span class="burgerBtn__lines"></span>
+            <span class="burgerBtn__lines"></span>
+          </button>
+        </div>
 
       </div>
     </div>

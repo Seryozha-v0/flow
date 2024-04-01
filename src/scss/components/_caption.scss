@@ -18,7 +18,7 @@
   }
 
   &:after {
-    left: calc((12px - 8px) / 2);
+    translate: 25% -50%;
     width: 8px;
     height: 8px;
     background: var(--primary-300);

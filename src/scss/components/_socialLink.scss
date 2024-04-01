@@ -1,8 +1,21 @@
 .socialLink {
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  color: var(--primary);
 
   .customIcon {
     margin-right: 16px;
+  }
+
+  &_thin {
+    .customIcon {
+      margin-right: 8px;
+    }
+  }
+
+  &_icon {
+    .customIcon {
+      margin-right: 0;
+    }
   }
 }

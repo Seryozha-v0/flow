@@ -1,0 +1,92 @@
+@media (min-width: 1221px) and (max-width: 1337px) {
+  body {
+    @include body-100;
+  }
+}
+
+@media (max-width: 1221px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 1025px) {
+  body {
+    @include body-100;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    &__getBtn {
+      display: none;
+    }
+
+    &__burger {
+      flex-shrink: 0;
+      display: block;
+      padding: 0 5px;
+    }
+
+    .nav {
+      display: none;
+      position: fixed;
+      top: 87px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 64px 10px 40px;
+      width: 100vw;
+      height: calc(100vh - 87px);
+      background: var(--white);
+      z-index: 1;
+      opacity: 0;
+      transition: .4s ease opacity;
+
+      &_show {
+        display: block;
+      }
+
+      &_active {
+        display: block;
+        opacity: 1;
+      }
+
+      &__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+      }
+
+      &__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  }
+
+  .menu {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    &__item + &__item {
+      margin: 0;
+      margin-top: 32px;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    @include body-200;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    @include body-200;
+  }
+}

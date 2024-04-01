@@ -24,4 +24,16 @@
   &_circle {
     border-radius: 100%;
   }
+
+  &_link {
+    width: 32px;
+    height: 32px;
+    background: transparent;
+
+    @include label-100;
+
+    .flowIcon {
+      font-size: 28px;
+    }
+  }
 }

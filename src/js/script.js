@@ -1,5 +1,5 @@
 import { tns } from 'tiny-slider/src/tiny-slider';
-import { CONTAINER_WIDTH } from './constants';
+import { CONTAINER_WIDTH, TRANSITION_DFLT } from './constants';
 
 document.addEventListener('DOMContentLoaded', () => {
   let pageWidth = window.innerWidth;
@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
           wrapper.removeAttribute('style');
           accordion.classList.remove('accordion_active');
-        }, 400);
+        }, TRANSITION_DFLT);
 
         return;
       }
@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
       accordion.classList.add('accordion_active');
       setTimeout(() => {
         wrapper.removeAttribute('style');
-      }, 400);
+      }, TRANSITION_DFLT);
     };
   });
 
@@ -174,6 +174,32 @@ document.addEventListener('DOMContentLoaded', () => {
   handleActiveSlides();
 
   reviewsCarousel.events.on('indexChanged', handleActiveSlides);
+
+  const burgerBtn = document.querySelector('.burgerBtn');
+  const navEl = document.querySelector('.nav');
+
+  burgerBtn.onclick = () => {
+    if (burgerBtn.classList.contains('burgerBtn_active')) {
+      burgerBtn.classList.remove('burgerBtn_active');
+
+      navEl.classList.add('nav_show');
+      navEl.classList.remove('nav_active');
+
+      setTimeout(() => {
+        navEl.classList.remove('nav_show');
+      }, TRANSITION_DFLT);
+
+      return;
+    }
+
+    burgerBtn.classList.add('burgerBtn_active');
+    navEl.classList.add('nav_show');
+
+    setTimeout(() => {
+      navEl.classList.add('nav_active');
+      navEl.classList.remove('nav_show');
+    }, 0);
+  };
 
   window.onresize = (e) => {
     pageWidth = e.target.innerWidth;
