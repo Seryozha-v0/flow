@@ -3969,16 +3969,19 @@ document.addEventListener('DOMContentLoaded', () => {
   reviewsCarousel.events.on('indexChanged', handleActiveSlides);
   const burgerBtn = document.querySelector('.burgerBtn');
   const navEl = document.querySelector('.nav');
+  const html = document.querySelector('html');
   burgerBtn.onclick = () => {
     if (burgerBtn.classList.contains('burgerBtn_active')) {
       burgerBtn.classList.remove('burgerBtn_active');
       navEl.classList.add('nav_show');
       navEl.classList.remove('nav_active');
+      html.removeAttribute('style');
       setTimeout(() => {
         navEl.classList.remove('nav_show');
       }, TRANSITION_DFLT);
       return;
     }
+    html.style.overflow = 'hidden';
     burgerBtn.classList.add('burgerBtn_active');
     navEl.classList.add('nav_show');
     setTimeout(() => {
@@ -3986,9 +3989,32 @@ document.addEventListener('DOMContentLoaded', () => {
       navEl.classList.remove('nav_show');
     }, 0);
   };
+  const header = document.querySelector('.header');
+  const spaceBox = document.createElement('div');
+  const handleHeaderSticky = () => {
+    if (window.scrollY < 200) {
+      header.classList.remove('header_sticky');
+      spaceBox.remove();
+    }
+    if (window.scrollY > 200 && !header.classList.contains('header_sticky')) {
+      spaceBox.style.height = `${header.offsetHeight}px`;
+      header.classList.add('header_show');
+      header.insertAdjacentElement('beforebegin', spaceBox);
+      setTimeout(() => {
+        header.classList.add('header_sticky');
+        header.classList.remove('header_show');
+      }, 0);
+    }
+    if (!header.classList.contains('header_sticky') && header.offsetHeight === spaceBox.offsetHeight) return;
+    spaceBox.style.height = `${header.offsetHeight}px`;
+  };
+  window.onscroll = () => {
+    handleHeaderSticky();
+  };
   window.onresize = e => {
     pageWidth = e.target.innerWidth;
     updateTeamCarousel();
+    handleHeaderSticky();
   };
 });
 ;// CONCATENATED MODULE: ./src/index.js
