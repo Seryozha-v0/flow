@@ -20,5 +20,14 @@
     left: 0;
     right: 0;
     z-index: 999;
+    translate: 0;
+    opacity: 1;
+    transition: .4s ease translate;
+  }
+
+  &_show {
+    position: fixed;
+    translate: 0 -100%;
+    opacity: 0;
   }
 }

@@ -9,6 +9,7 @@
 }
 
 html {
+  min-width: 320px;
   overflow-x: hidden;
 }
 
@@ -22,7 +23,6 @@ body {
   width: min(100%, 1220px);
   margin: 0 auto;
   padding: 0;
-  overflow-x: hidden;
 }
 
 hr {

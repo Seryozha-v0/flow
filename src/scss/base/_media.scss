@@ -1,22 +1,79 @@
-@media (min-width: 1221px) and (max-width: 1337px) {
-  body {
-    @include body-100;
+@media (max-width: 1445px) {
+  .promo {
+    &__graphic {
+      right: 0;
+    }
+  }
+}
+
+@media (max-width: 1337px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .promo {
+    &__graphic {
+      right: 0;
+      width: clamp(300px, 50%, 450px);
+    }
+
+    &__wrapper {
+      padding: 0;
+    }
+
+    &__charger-wrapper {
+      left: 50%;
+      translate: -50% 0;
+    }
   }
 }
 
 @media (max-width: 1221px) {
-  .container {
-    padding: 0 10px;
-  }
+
 }
 
-@media (max-width: 1025px) {
-  body {
-    @include body-100;
+@media (max-width: 1085px) {
+  .promo {
+    padding-bottom: 16px;
+
+    &__content {
+      max-width: 100%;
+    }
+
+    &__graphic {
+      margin-top: 15px;
+      position: relative;
+      right: 0;
+      width: 100%;
+      border-radius: 16px;
+      background: var(--primary-300);
+    }
+
+    &__wrapper {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100%;
+    }
+
+    &__background {
+      width: 40%;
+    }
+
+    &__charger-wrapper {
+      position: relative;
+      inset: 0;
+      translate: 0;
+      flex-shrink: 1;
+    }
   }
 }
 
 @media (max-width: 768px) {
+  h1 {
+    @include headline-200;
+  }
+
   .header {
     &__getBtn {
       display: none;
@@ -31,15 +88,15 @@
     .nav {
       display: none;
       position: fixed;
-      top: 87px;
+      top: 85px;
       left: 0;
       right: 0;
       bottom: 0;
       padding: 64px 10px 40px;
       width: 100vw;
-      height: calc(100vh - 87px);
+      height: calc(100% - 85px);
       background: var(--white);
-      z-index: 1;
+      z-index: 9999;
       opacity: 0;
       transition: .4s ease opacity;
 
@@ -72,21 +129,42 @@
     justify-content: flex-start;
     align-items: flex-start;
 
-    &__item + &__item {
+    &__item+&__item {
       margin: 0;
       margin-top: 32px;
+    }
+  }
+
+  .promo {
+    padding-top: 36px;
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    &__graphic {
+      padding-bottom: 20px;
+    }
+
+    &__wrapper {
+      flex-direction: column;
     }
   }
 }
 
 @media (max-width: 425px) {
   body {
-    @include body-200;
+    @include body-300;
+  }
+
+  h1 {
+    @include headline-300;
   }
 }
 
 @media (max-width: 375px) {
-  body {
-    @include body-200;
-  }
+  
 }
