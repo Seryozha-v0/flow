@@ -5,6 +5,10 @@
     display: flex;
     justify-content: space-between;
   }
+  
+  h2 {
+    flex-shrink: 0;
+  }
 
   &__content {
     width: min(100%, 696px);

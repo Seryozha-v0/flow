@@ -29,7 +29,60 @@
 }
 
 @media (max-width: 1221px) {
+  .cta {
+    padding-bottom: 0;
 
+    &__content {
+      width: 100%;
+    }
+
+    &__graphic {
+      position: relative;
+      margin-top: 25px;
+      width: 200px;
+      right: 0;
+
+      &:before {
+        width: 100vw;
+      }
+    }
+  }
+
+  .blog {
+    &__title {
+      @include title-400;
+    }
+
+    &__footer {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &__divider {
+      display: none;
+    }
+
+    &__created {
+      margin-top: 16px;
+    }
+
+    &__item:first-child {
+      .blog {
+        &__footer {
+          flex-direction: row;
+          align-items: center;
+        }
+
+        &__divider {
+          display: block;
+        }
+
+        &__created {
+          margin-top: 0;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 1085px) {
@@ -67,11 +120,87 @@
       flex-shrink: 1;
     }
   }
+
+  .partners {
+    padding: 48px 0;
+
+    &__list {
+      grid-template-columns: repeat(2, 132px);
+    }
+  }
+
+  .about {
+    padding: 52px 0;
+
+    &__wrapper {
+      flex-direction: column;
+    }
+
+    &__content {
+      margin-top: 25px;
+    }
+  }
+
+  .statistic {
+    &__list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .blog {
+    &__list {
+      grid-template-columns: 1fr;
+    }
+
+    &__footer {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    &__divider {
+      display: block;
+    }
+
+    &__created {
+      margin-top: 0;
+    }
+
+    &__item:first-child {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+
+      .blog {
+        &__preview {
+          margin-top: 16px;
+          max-width: 50%;
+          aspect-ratio: 4 / 3;
+        }
+
+        &__badges {
+          margin-top: 0;
+          margin-left: 16px;
+          width: 100%;
+          order: -1;
+        }
+
+        &__content {
+          margin-top: 16px;
+          width: calc(50% - 32px);
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {
   h1 {
     @include headline-200;
+  }
+
+  .title {
+    @include headline-400
   }
 
   .header {
@@ -153,6 +282,90 @@
       flex-direction: column;
     }
   }
+
+  .partners {
+    padding: 48px 0;
+
+    &__wrapper {
+      flex-direction: column;
+    }
+
+    &__list {
+      margin-top: 25px;
+      justify-content: center;
+    }
+  }
+
+  .solutions {
+    &__list {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .statistic {
+    padding: 39px 0;
+
+    &__list {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .team {
+    padding: 52px 0;
+
+    &__header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &__controls {
+      margin-top: 16px;
+    }
+
+    &__carousel {
+      margin-top: 16px;
+      padding: 0 10px;
+    }
+  }
+
+  .blog {
+    &__footer {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &__divider {
+      display: none;
+    }
+
+    &__created {
+      margin-top: 16px;
+    }
+
+    &__item:first-child {
+      flex-direction: column;
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+
+      .blog {
+        &__preview {
+          margin-top: 0;
+          max-width: 100%;
+          aspect-ratio: auto;
+        }
+
+        &__badges {
+          display: none;
+        }
+
+        &__content {
+          margin-top: 32px;
+          margin-left: 0;
+          width: 100%;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 425px) {
@@ -163,8 +376,60 @@
   h1 {
     @include headline-300;
   }
+
+  .btn {
+    padding: 8px 14px;
+
+    @include label-200;
+  }
+
+  .blog {
+    &__item {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    &__preview {
+      width: 100%;
+      aspect-ratio: 2 / 1;
+    }
+
+    &__badges {
+      display: none;
+    }
+
+    &__content {
+      margin-top: 32px;
+      margin-left: 0;
+      width: 100%;
+    }
+
+    &__footer {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    &__divider {
+      display: block;
+    }
+
+    &__created {
+      margin-top: 0;
+    }
+  }
 }
 
 @media (max-width: 375px) {
-  
+  h1 {
+    @include headline-400;
+  }
+
+  .partners {
+    padding: 48px 0;
+
+    &__list {
+      gap: 25px 44px;
+    }
+  }
+
 }

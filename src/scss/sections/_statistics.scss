@@ -2,7 +2,9 @@
   padding: 78px 0;
 
   &__list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px 0;
     justify-content: space-between;
     align-items: center;
     margin: 0;
