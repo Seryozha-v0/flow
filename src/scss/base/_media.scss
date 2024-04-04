@@ -8,7 +8,7 @@
 
 @media (max-width: 1337px) {
   .container {
-    padding: 0 10px;
+    padding: 0 20px;
   }
 
   .promo {
@@ -223,7 +223,7 @@
       bottom: 0;
       padding: 64px 10px 40px;
       width: 100vw;
-      height: calc(100% - 85px);
+      height: calc(var(--vh) - 85px);
       background: var(--white);
       z-index: 9999;
       opacity: 0;
@@ -299,6 +299,12 @@
   .solutions {
     &__list {
       grid-template-columns: 1fr;
+    }
+  }
+
+  .about {
+    &__descr {
+      @include title-400;
     }
   }
 
@@ -383,6 +389,16 @@
     @include label-200;
   }
 
+  .accordion {
+    &__header {
+      @include label-200;
+    }
+
+    &__descr {
+      @include body-300;
+    }
+  }
+
   .blog {
     &__item {
       flex-direction: column;
@@ -415,6 +431,12 @@
 
     &__created {
       margin-top: 0;
+    }
+  }
+
+  .faq {
+    &__list {
+      grid-template-columns: 1fr;
     }
   }
 }

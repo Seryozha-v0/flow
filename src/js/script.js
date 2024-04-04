@@ -16,6 +16,14 @@ document.addEventListener('DOMContentLoaded', () => {
     freezable: false,
     fixedWidth: 280,
     gutter: 32,
+    responsive: {
+      425: {
+        item: 1,
+      },
+      768: {
+        item: 3,
+      },
+    },
   };
 
   tns(aboutOprtions);
@@ -175,6 +183,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   reviewsCarousel.events.on('indexChanged', handleActiveSlides);
 
+  const handleWindowHeight = () => {
+    const vh = window.innerHeight;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  };
+
+  handleWindowHeight();
+
   const burgerBtn = document.querySelector('.burgerBtn');
   const navEl = document.querySelector('.nav');
   const html = document.querySelector('html');
@@ -186,7 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
       navEl.classList.add('nav_show');
       navEl.classList.remove('nav_active');
 
-      html.removeAttribute('style');
+      html.style.removeProperty('overflow');
 
       setTimeout(() => {
         navEl.classList.remove('nav_show');
@@ -241,5 +256,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     updateTeamCarousel();
     handleHeaderSticky();
+    handleWindowHeight();
   };
 });
