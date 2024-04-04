@@ -3841,7 +3841,15 @@ document.addEventListener('DOMContentLoaded', () => {
     loop: true,
     freezable: false,
     fixedWidth: 280,
-    gutter: 32
+    gutter: 32,
+    responsive: {
+      425: {
+        item: 1
+      },
+      768: {
+        item: 3
+      }
+    }
   };
   tns(aboutOprtions);
   const team = document.querySelector('.team');
@@ -3967,6 +3975,11 @@ document.addEventListener('DOMContentLoaded', () => {
   };
   handleActiveSlides();
   reviewsCarousel.events.on('indexChanged', handleActiveSlides);
+  const handleWindowHeight = () => {
+    const vh = window.innerHeight;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  };
+  handleWindowHeight();
   const burgerBtn = document.querySelector('.burgerBtn');
   const navEl = document.querySelector('.nav');
   const html = document.querySelector('html');
@@ -3975,7 +3988,7 @@ document.addEventListener('DOMContentLoaded', () => {
       burgerBtn.classList.remove('burgerBtn_active');
       navEl.classList.add('nav_show');
       navEl.classList.remove('nav_active');
-      html.removeAttribute('style');
+      html.style.removeProperty('overflow');
       setTimeout(() => {
         navEl.classList.remove('nav_show');
       }, TRANSITION_DFLT);
@@ -4015,6 +4028,7 @@ document.addEventListener('DOMContentLoaded', () => {
     pageWidth = e.target.innerWidth;
     updateTeamCarousel();
     handleHeaderSticky();
+    handleWindowHeight();
   };
 });
 ;// CONCATENATED MODULE: ./src/index.js
