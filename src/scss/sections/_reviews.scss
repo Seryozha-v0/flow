@@ -18,23 +18,27 @@
     padding-bottom: 16px;
 
     .review {
-      transition: .4s ease translate, .4s ease scale;
+      transition: .4s ease translate, .2s ease scale, .4s ease background;
     }
 
     &_prevSlide {
-      position: relative;
       translate: 93% 0;
-      z-index: -1;
-    }
-    &_nextSlide {
-      position: relative;
-      translate: -93% 0;
-      z-index: -1;
     }
 
-    &_prevSlide, &_nextSlide {
+    &_nextSlide {
+      translate: -93% 0;
+    }
+
+    &_prevSlide,
+    &_nextSlide {
+      position: relative;
       background: var(--gray-50);
       scale: .9;
+      z-index: -1;
+
+      .review {
+        filter: blur(5px);
+      }
     }
   }
 

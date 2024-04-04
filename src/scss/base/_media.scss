@@ -192,6 +192,17 @@
       }
     }
   }
+
+  .reviews {
+    &__carousel {
+      &_prevSlide,
+      &_nextSlide {
+        translate: 0;
+        scale: .8;
+        z-index: -1;
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {
@@ -372,6 +383,23 @@
       }
     }
   }
+  
+  .reviews {
+    &__wrapper {
+      margin-top: 25px;
+      padding: 0;
+    }
+
+    &__nav {
+      display: none;
+    }
+  }
+
+  .review {
+    &__text {
+      @include title-300;
+    }
+  }
 }
 
 @media (max-width: 425px) {
@@ -437,6 +465,22 @@
   .faq {
     &__list {
       grid-template-columns: 1fr;
+    }
+  }
+  
+  .review {
+    padding: 24px 32px;
+    
+    &__text {
+      @include title-400;
+    }
+
+    &__name {
+      @include label-200;
+    }
+
+    &__company {
+      @include body-300
     }
   }
 }

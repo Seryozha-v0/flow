@@ -148,6 +148,17 @@ document.addEventListener('DOMContentLoaded', () => {
     mouseDrag: false,
     center: true,
     fixedWidth: 800,
+    responsive: {
+      0: {
+        item: 1,
+        fixedWidth: false,
+        center: false,
+        edgePadding: 15,
+      },
+      1085: {
+        fixedWidth: 800,
+      },
+    },
   };
 
   const reviewsCarousel = tns(reviewsOptions);
