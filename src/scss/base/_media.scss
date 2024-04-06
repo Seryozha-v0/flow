@@ -20,6 +20,7 @@
     &__charger-wrapper {
       left: 50%;
       translate: -50% 0;
+      width: min(100%, 369px);
     }
   }
 }
@@ -266,13 +267,13 @@
     .nav {
       display: none;
       position: fixed;
-      top: 85px;
+      top: 0;
       left: 0;
       right: 0;
       bottom: 0;
       padding: 64px 10px 40px;
       width: 100vw;
-      height: calc(var(--vh) - 85px);
+      height: var(--vh);
       background: var(--white);
       z-index: 9999;
       opacity: 0;
@@ -573,6 +574,10 @@
     &__socials {
       grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
       gap: 10px;
+    }
+
+    &__copyright {
+      text-align: center;
     }
   }
 }

@@ -3,7 +3,7 @@
 
   &__wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;
     align-items: start;
     gap: 20px;
@@ -11,6 +11,7 @@
   }
 
   &__nav {
+    grid-column: 2 / 4;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(156px, 1fr));
     gap: 32px;
