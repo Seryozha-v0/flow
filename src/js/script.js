@@ -214,19 +214,22 @@ document.addEventListener('DOMContentLoaded', () => {
   const navEl = document.querySelector('.nav');
   const html = document.querySelector('html');
 
+  const closeMobileNav = () => {
+    burgerBtn.classList.remove('burgerBtn_active');
+
+    navEl.classList.add('nav_show');
+    navEl.classList.remove('nav_active');
+
+    html.style.removeProperty('overflow');
+
+    setTimeout(() => {
+      navEl.classList.remove('nav_show');
+    }, TRANSITION_DFLT);
+  };
+
   burgerBtn.onclick = () => {
     if (burgerBtn.classList.contains('burgerBtn_active')) {
-      burgerBtn.classList.remove('burgerBtn_active');
-
-      navEl.classList.add('nav_show');
-      navEl.classList.remove('nav_active');
-
-      html.style.removeProperty('overflow');
-
-      setTimeout(() => {
-        navEl.classList.remove('nav_show');
-      }, TRANSITION_DFLT);
-
+      closeMobileNav();
       return;
     }
 
@@ -267,6 +270,30 @@ document.addEventListener('DOMContentLoaded', () => {
     spaceBox.style.height = `${header.offsetHeight}px`;
   };
 
+  const linksToSec = document.querySelectorAll('a[href^="#"]');
+
+  linksToSec.forEach((item) => {
+    const link = item;
+    link.onclick = (e) => {
+      e.preventDefault();
+      const href = e.target.getAttribute('href');
+      const section = document.querySelector(href);
+
+      let scrollTop = section.offsetTop;
+
+      if (scrollTop > 200) {
+        scrollTop -= header.offsetHeight;
+      }
+
+      closeMobileNav();
+
+      window.scrollTo({
+        top: scrollTop,
+        behavior: 'smooth',
+      });
+    };
+  });
+
   window.onscroll = () => {
     handleHeaderSticky();
   };
@@ -277,5 +304,9 @@ document.addEventListener('DOMContentLoaded', () => {
     updateTeamCarousel();
     handleHeaderSticky();
     handleWindowHeight();
+
+    if (pageWidth > 768 && burgerBtn.classList.contains('burgerBtn_active')) {
+      closeMobileNav();
+    }
   };
 });

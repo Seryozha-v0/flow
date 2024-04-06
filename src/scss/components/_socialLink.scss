@@ -2,6 +2,9 @@
   display: inline-flex;
   align-items: center;
 
+  @include label-200;
+  color: var(--primary);
+
   .customIcon {
     margin-right: 16px;
   }
