@@ -241,6 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const burgerBtn = document.querySelector('.burgerBtn');
   const navEl = document.querySelector('.nav');
   const html = document.querySelector('html');
+  let timeOut;
 
   const closeMobileNav = () => {
     burgerBtn.classList.remove('burgerBtn_active');
@@ -250,7 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     html.style.removeProperty('overflow');
 
-    setTimeout(() => {
+    timeOut = setTimeout(() => {
       navEl.classList.remove('nav_show');
       navEl.style.removeProperty('top');
       navEl.style.removeProperty('height');
@@ -258,6 +259,8 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   burgerBtn.onclick = () => {
+    clearTimeout(timeOut);
+
     if (burgerBtn.classList.contains('burgerBtn_active')) {
       closeMobileNav();
       return;
