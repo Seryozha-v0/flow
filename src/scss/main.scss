@@ -6,6 +6,11 @@
 
 * {
   box-sizing: border-box;
+
+  &::selection {
+    background-color: rgba($color: #D9F99D, $alpha: .6);
+    color: #1D1F1E;
+  }
 }
 
 html {
