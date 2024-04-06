@@ -37,8 +37,9 @@
 
   &__person {
     position: relative;
-    width: 312px;
-    height: 432px;
+    padding-right: 32px !important; //for tiny-slide
+    width: min(100%, 312px);
+    aspect-ratio: 312 / 432;
     border-radius: 18px;
     overflow: hidden;
   }

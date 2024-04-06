@@ -1,7 +1,6 @@
 .socialLink {
   display: inline-flex;
   align-items: center;
-  color: var(--primary);
 
   .customIcon {
     margin-right: 16px;
@@ -17,5 +16,10 @@
     .customIcon {
       margin-right: 0;
     }
+  }
+
+  &__text {
+    @include label-200;
+    color: var(--primary);
   }
 }

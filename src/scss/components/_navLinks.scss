@@ -5,17 +5,18 @@
   display: flex;
   flex-direction: column;
 
-  &__item {
+  &__link {
     @include body-200;
     color: var(--gray-800);
-
-    &:first-child {
-      @include label-200;
-      color: var(--primary);
-    }
   }
 
-  &__item + &__item {
+  &__item:first-child &__link {
+    @include label-200;
+    color: var(--primary);
+  }
+
+  &__item+&__item {
     margin-top: 24px;
   }
+
 }

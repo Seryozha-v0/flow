@@ -1,5 +1,5 @@
 import { tns } from 'tiny-slider/src/tiny-slider';
-import { CONTAINER_WIDTH, TRANSITION_DFLT } from './constants';
+import { CONTAINER_CONTENT_WIDTH, CONTAINER_WIDTH, TRANSITION_DFLT } from './constants';
 
 document.addEventListener('DOMContentLoaded', () => {
   let pageWidth = window.innerWidth;
@@ -35,14 +35,22 @@ document.addEventListener('DOMContentLoaded', () => {
   let teamOptions = {
     container: '.team__carousel',
     mode: 'carousel',
-    items: 4,
     nav: false,
     controls: false,
     mouseDrag: true,
+    center: false,
     loop: false,
     freezable: false,
-    fixedWidth: 312,
-    gutter: 32,
+    responsive: {
+      0: {
+        item: 1,
+        fixedWidth: 320,
+      },
+      768: {
+        items: 3,
+        fixedWidth: 342,
+      },
+    },
   };
 
   let teamCarousel;
@@ -65,7 +73,8 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const createTeamCarousel = () => {
-    const teamPadding = pageWidth <= CONTAINER_WIDTH ? 0 : (pageWidth - CONTAINER_WIDTH - 30) / 2;
+    const teamPadding = pageWidth <= CONTAINER_WIDTH
+      ? 20 : (pageWidth - CONTAINER_CONTENT_WIDTH) / 2;
     teamCarousel = tns({ ...teamOptions, edgePadding: teamPadding });
 
     teamCarousel.events.on('indexChanged', checkSlides);

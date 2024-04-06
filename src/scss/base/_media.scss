@@ -7,10 +7,6 @@
 }
 
 @media (max-width: 1337px) {
-  .container {
-    padding: 0 20px;
-  }
-
   .promo {
     &__graphic {
       right: 0;
@@ -29,6 +25,12 @@
 }
 
 @media (max-width: 1221px) {
+  .team {
+    .tns-inner {
+      margin-right: 40px !important;
+    }
+  }
+
   .cta {
     padding-bottom: 0;
 
@@ -116,6 +118,7 @@
     &__charger-wrapper {
       position: relative;
       inset: 0;
+      padding: 0 5px;
       translate: 0;
       flex-shrink: 1;
     }
@@ -195,11 +198,46 @@
 
   .reviews {
     &__carousel {
+
       &_prevSlide,
       &_nextSlide {
         translate: 0;
         scale: .8;
         z-index: -1;
+      }
+    }
+  }
+
+  .subscription {
+    h2 {
+      width: 100%;
+    }
+
+    &__wrapper {
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 0;
+    }
+
+    &__form {
+      margin-top: 25px;
+    }
+  }
+
+  .footer {
+    &__nav {
+      gap: 32px 12px;
+    }
+
+    .socialLink {
+      display: inline-block;
+
+      .customIcon {
+        margin: 0 auto;
+      }
+
+      &__text {
+        display: none;
       }
     }
   }
@@ -383,7 +421,7 @@
       }
     }
   }
-  
+
   .reviews {
     &__wrapper {
       margin-top: 25px;
@@ -400,9 +438,47 @@
       @include title-300;
     }
   }
+
+  .subscription {
+    &__form {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .btn {
+      margin-top: 15px;
+    }
+  }
+
+  .footer {
+    padding: 48px 0 22px;
+    
+    &__wrapper {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 35px;
+    }
+
+    &__nav {
+      grid-column: span 2;
+      order: 3;
+    }
+
+    &__socials {
+      grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+      gap: 10px;
+    }
+
+    &__copyright {
+      margin-top: 50px;
+    }
+  }
 }
 
 @media (max-width: 425px) {
+  .title {
+    @include title-200
+  }
+
   body {
     @include body-300;
   }
@@ -467,10 +543,10 @@
       grid-template-columns: 1fr;
     }
   }
-  
+
   .review {
     padding: 24px 32px;
-    
+
     &__text {
       @include title-400;
     }
@@ -481,6 +557,22 @@
 
     &__company {
       @include body-300
+    }
+  }
+  
+  .footer {
+    &__wrapper {
+      grid-template-columns: 1fr;
+    }
+
+    &__nav {
+      grid-column: span 1;
+      order: unset;
+    }
+
+    &__socials {
+      grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+      gap: 10px;
     }
   }
 }
@@ -497,5 +589,4 @@
       gap: 25px 44px;
     }
   }
-
 }
