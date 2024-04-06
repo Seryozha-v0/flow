@@ -4000,6 +4000,27 @@ document.addEventListener('DOMContentLoaded', () => {
     document.documentElement.style.setProperty('--vh', `${vh}px`);
   };
   handleWindowHeight();
+  const header = document.querySelector('.header');
+  const spaceBox = document.createElement('div');
+  const handleHeaderSticky = () => {
+    if (window.scrollY < 200) {
+      header.classList.remove('header_sticky');
+      header.classList.remove('header_mini');
+      spaceBox.remove();
+    }
+    if (window.scrollY > 250 && !header.classList.contains('header_sticky')) {
+      spaceBox.style.height = `${header.offsetHeight}px`;
+      header.classList.add('header_show');
+      header.insertAdjacentElement('beforebegin', spaceBox);
+      setTimeout(() => {
+        header.classList.add('header_sticky');
+        header.classList.add('header_mini');
+        header.classList.remove('header_show');
+      }, 0);
+    }
+    if (!header.classList.contains('header_sticky') && header.offsetHeight === spaceBox.offsetHeight) return;
+    spaceBox.style.height = `${header.offsetHeight}px`;
+  };
   const burgerBtn = document.querySelector('.burgerBtn');
   const navEl = document.querySelector('.nav');
   const html = document.querySelector('html');
@@ -4010,6 +4031,8 @@ document.addEventListener('DOMContentLoaded', () => {
     html.style.removeProperty('overflow');
     setTimeout(() => {
       navEl.classList.remove('nav_show');
+      navEl.style.removeProperty('top');
+      navEl.style.removeProperty('height');
     }, TRANSITION_DFLT);
   };
   burgerBtn.onclick = () => {
@@ -4019,30 +4042,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     html.style.overflow = 'hidden';
     burgerBtn.classList.add('burgerBtn_active');
+    navEl.style.top = `${header.clientHeight}px`;
+    navEl.style.height = `calc(var(--vh) - ${header.clientHeight}px)`;
     navEl.classList.add('nav_show');
     setTimeout(() => {
       navEl.classList.add('nav_active');
       navEl.classList.remove('nav_show');
     }, 0);
-  };
-  const header = document.querySelector('.header');
-  const spaceBox = document.createElement('div');
-  const handleHeaderSticky = () => {
-    if (window.scrollY < 200) {
-      header.classList.remove('header_sticky');
-      spaceBox.remove();
-    }
-    if (window.scrollY > 200 && !header.classList.contains('header_sticky')) {
-      spaceBox.style.height = `${header.offsetHeight}px`;
-      header.classList.add('header_show');
-      header.insertAdjacentElement('beforebegin', spaceBox);
-      setTimeout(() => {
-        header.classList.add('header_sticky');
-        header.classList.remove('header_show');
-      }, 0);
-    }
-    if (!header.classList.contains('header_sticky') && header.offsetHeight === spaceBox.offsetHeight) return;
-    spaceBox.style.height = `${header.offsetHeight}px`;
   };
   const linksToSec = document.querySelectorAll('a[href^="#"]');
   linksToSec.forEach(item => {
