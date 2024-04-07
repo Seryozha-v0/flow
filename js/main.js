@@ -2,7 +2,7 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 514:
+/***/ 3514:
 /***/ ((module) => {
 
 
@@ -30,227 +30,612 @@ module.exports = function (url, options) {
 
 /***/ }),
 
-/***/ 648:
+/***/ 3648:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/authors/alexander.jpg";
 
 /***/ }),
 
-/***/ 545:
+/***/ 8545:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/authors/warren.jpg";
 
 /***/ }),
 
-/***/ 520:
+/***/ 4520:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/authors/wilson.jpg";
 
 /***/ }),
 
-/***/ 144:
+/***/ 2120:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/energy-200.avif";
+
+/***/ }),
+
+/***/ 7177:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/energy-200.jpg";
+
+/***/ }),
+
+/***/ 3978:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/energy-200.webp";
+
+/***/ }),
+
+/***/ 4561:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/energy-500.avif";
+
+/***/ }),
+
+/***/ 7730:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/energy-500.jpg";
+
+/***/ }),
+
+/***/ 7839:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/energy-500.webp";
+
+/***/ }),
+
+/***/ 4144:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/blog/energy.jpg";
 
 /***/ }),
 
-/***/ 656:
+/***/ 3952:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/hydrogen-200.avif";
+
+/***/ }),
+
+/***/ 5441:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/hydrogen-200.jpg";
+
+/***/ }),
+
+/***/ 6930:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/hydrogen-200.webp";
+
+/***/ }),
+
+/***/ 4601:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/hydrogen-500.avif";
+
+/***/ }),
+
+/***/ 8586:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/hydrogen-500.jpg";
+
+/***/ }),
+
+/***/ 7479:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/hydrogen-500.webp";
+
+/***/ }),
+
+/***/ 7656:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/blog/hydrogen.jpg";
 
 /***/ }),
 
-/***/ 749:
+/***/ 9739:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/panels-200.avif";
+
+/***/ }),
+
+/***/ 8240:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/panels-200.jpg";
+
+/***/ }),
+
+/***/ 7753:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/panels-200.webp";
+
+/***/ }),
+
+/***/ 6734:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/panels-500.avif";
+
+/***/ }),
+
+/***/ 3595:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/panels-500.jpg";
+
+/***/ }),
+
+/***/ 4760:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/panels-500.webp";
+
+/***/ }),
+
+/***/ 7629:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/panels-750.avif";
+
+/***/ }),
+
+/***/ 1710:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/panels-750.jpg";
+
+/***/ }),
+
+/***/ 3915:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/panels-750.webp";
+
+/***/ }),
+
+/***/ 7749:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/blog/panels.jpg";
 
 /***/ }),
 
-/***/ 146:
+/***/ 4746:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/wind-200.avif";
+
+/***/ }),
+
+/***/ 4567:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/wind-200.jpg";
+
+/***/ }),
+
+/***/ 7796:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/wind-200.webp";
+
+/***/ }),
+
+/***/ 1455:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/wind-500.avif";
+
+/***/ }),
+
+/***/ 6484:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/wind-500.jpg";
+
+/***/ }),
+
+/***/ 8365:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/blog/wind-500.webp";
+
+/***/ }),
+
+/***/ 4146:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/blog/wind.jpg";
 
 /***/ }),
 
-/***/ 254:
+/***/ 1792:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/carousel/1-300.avif";
+
+/***/ }),
+
+/***/ 9521:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/carousel/1-300.jpg";
+
+/***/ }),
+
+/***/ 9362:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/carousel/1-300.webp";
+
+/***/ }),
+
+/***/ 8873:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/carousel/1.jpg";
 
 /***/ }),
 
-/***/ 734:
+/***/ 7386:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "img/carousel/2.jpg";
+module.exports = __webpack_require__.p + "img/carousel/3-300.avif";
 
 /***/ }),
 
-/***/ 195:
+/***/ 983:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/carousel/3-300.jpg";
+
+/***/ }),
+
+/***/ 4084:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/carousel/3-300.webp";
+
+/***/ }),
+
+/***/ 9195:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/carousel/3.jpg";
 
 /***/ }),
 
-/***/ 360:
+/***/ 6967:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/carousel/4-300.avif";
+
+/***/ }),
+
+/***/ 7500:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/carousel/4-300.jpg";
+
+/***/ }),
+
+/***/ 5525:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/carousel/4-300.webp";
+
+/***/ }),
+
+/***/ 6360:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/carousel/4.jpg";
 
 /***/ }),
 
-/***/ 269:
+/***/ 8020:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/carousel/5-300.avif";
+
+/***/ }),
+
+/***/ 7957:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/carousel/5-300.jpg";
+
+/***/ }),
+
+/***/ 8566:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/carousel/5-300.webp";
+
+/***/ }),
+
+/***/ 7269:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/carousel/5.jpg";
 
 /***/ }),
 
-/***/ 374:
+/***/ 2374:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/charger/map.jpg";
 
 /***/ }),
 
-/***/ 873:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "img/header/man.jpg";
-
-/***/ }),
-
-/***/ 717:
+/***/ 7717:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/logo.svg";
 
 /***/ }),
 
-/***/ 187:
+/***/ 4187:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/partners/Logo-1.svg";
 
 /***/ }),
 
-/***/ 448:
+/***/ 3448:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/partners/Logo-2.svg";
 
 /***/ }),
 
-/***/ 689:
+/***/ 7689:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/partners/Logo-3.svg";
 
 /***/ }),
 
-/***/ 246:
+/***/ 8246:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/partners/Logo-4.svg";
 
 /***/ }),
 
-/***/ 910:
+/***/ 2910:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/plugs/j-1772.svg";
 
 /***/ }),
 
-/***/ 382:
+/***/ 9161:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/promo/man-200.avif";
+
+/***/ }),
+
+/***/ 1690:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/promo/man-200.jpg";
+
+/***/ }),
+
+/***/ 2039:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/promo/man-200.webp";
+
+/***/ }),
+
+/***/ 8834:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/promo/man-450.avif";
+
+/***/ }),
+
+/***/ 1791:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/promo/man-450.jpg";
+
+/***/ }),
+
+/***/ 6796:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/promo/man-450.webp";
+
+/***/ }),
+
+/***/ 6781:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/promo/man-600.avif";
+
+/***/ }),
+
+/***/ 3742:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/promo/man-600.jpg";
+
+/***/ }),
+
+/***/ 8299:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/promo/man-600.webp";
+
+/***/ }),
+
+/***/ 1075:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/promo/man.jpg";
+
+/***/ }),
+
+/***/ 5382:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/social/facebook-app.svg";
 
 /***/ }),
 
-/***/ 344:
+/***/ 5344:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/social/instagram.svg";
 
 /***/ }),
 
-/***/ 178:
+/***/ 3178:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/social/linkedin.svg";
 
 /***/ }),
 
-/***/ 535:
+/***/ 8535:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/solutions/dots.svg";
 
 /***/ }),
 
-/***/ 797:
+/***/ 8178:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/solutions/help.svg";
 
 /***/ }),
 
-/***/ 46:
+/***/ 7046:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/solutions/solar.svg";
 
 /***/ }),
 
-/***/ 324:
+/***/ 5324:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/solutions/water.svg";
 
 /***/ }),
 
-/***/ 49:
+/***/ 3049:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/solutions/wind.svg";
 
 /***/ }),
 
-/***/ 947:
+/***/ 2070:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/team/henry.avif";
+
+/***/ }),
+
+/***/ 6947:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/team/henry.jpg";
 
 /***/ }),
 
-/***/ 375:
+/***/ 4576:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/team/henry.webp";
+
+/***/ }),
+
+/***/ 8362:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/team/russell.avif";
+
+/***/ }),
+
+/***/ 6375:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/team/russell.jpg";
 
 /***/ }),
 
-/***/ 620:
+/***/ 788:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/team/russell.webp";
+
+/***/ }),
+
+/***/ 2527:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/team/williamson.avif";
+
+/***/ }),
+
+/***/ 7620:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/team/williamson.jpg";
 
 /***/ }),
 
-/***/ 861:
+/***/ 2269:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/team/williamson.webp";
+
+/***/ }),
+
+/***/ 3980:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/team/wilson.avif";
+
+/***/ }),
+
+/***/ 2861:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "img/team/wilson.jpg";
+
+/***/ }),
+
+/***/ 206:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "img/team/wilson.webp";
 
 /***/ })
 
@@ -380,43 +765,98 @@ var __webpack_exports__ = {};
 (() => {
 
 // EXTERNAL MODULE: ./node_modules/html-loader/dist/runtime/getUrl.js
-var getUrl = __webpack_require__(514);
+var getUrl = __webpack_require__(3514);
 var getUrl_default = /*#__PURE__*/__webpack_require__.n(getUrl);
 ;// CONCATENATED MODULE: ./src/pages/index.html
 // Imports
 
-var ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(717), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(382), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(344), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(178), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(873), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(374), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(910), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(187), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(448), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(689), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_10___ = new URL(/* asset import */ __webpack_require__(246), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_11___ = new URL(/* asset import */ __webpack_require__(535), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_12___ = new URL(/* asset import */ __webpack_require__(46), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_13___ = new URL(/* asset import */ __webpack_require__(49), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_14___ = new URL(/* asset import */ __webpack_require__(324), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_15___ = new URL(/* asset import */ __webpack_require__(195), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_16___ = new URL(/* asset import */ __webpack_require__(360), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_17___ = new URL(/* asset import */ __webpack_require__(269), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_18___ = new URL(/* asset import */ __webpack_require__(254), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_19___ = new URL(/* asset import */ __webpack_require__(734), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_20___ = new URL(/* asset import */ __webpack_require__(861), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_21___ = new URL(/* asset import */ __webpack_require__(620), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_22___ = new URL(/* asset import */ __webpack_require__(947), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_23___ = new URL(/* asset import */ __webpack_require__(375), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_24___ = new URL(/* asset import */ __webpack_require__(749), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_25___ = new URL(/* asset import */ __webpack_require__(648), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_26___ = new URL(/* asset import */ __webpack_require__(146), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_27___ = new URL(/* asset import */ __webpack_require__(545), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_28___ = new URL(/* asset import */ __webpack_require__(144), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_29___ = new URL(/* asset import */ __webpack_require__(520), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_30___ = new URL(/* asset import */ __webpack_require__(656), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_31___ = new URL(/* asset import */ __webpack_require__(797), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(7717), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(5382), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(5344), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(3178), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(8834), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(6781), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(6796), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(8299), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(1791), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(3742), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_10___ = new URL(/* asset import */ __webpack_require__(1075), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_11___ = new URL(/* asset import */ __webpack_require__(2374), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_12___ = new URL(/* asset import */ __webpack_require__(2910), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_13___ = new URL(/* asset import */ __webpack_require__(4187), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_14___ = new URL(/* asset import */ __webpack_require__(3448), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_15___ = new URL(/* asset import */ __webpack_require__(7689), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_16___ = new URL(/* asset import */ __webpack_require__(8246), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_17___ = new URL(/* asset import */ __webpack_require__(8535), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_18___ = new URL(/* asset import */ __webpack_require__(7046), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_19___ = new URL(/* asset import */ __webpack_require__(3049), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_20___ = new URL(/* asset import */ __webpack_require__(5324), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_21___ = new URL(/* asset import */ __webpack_require__(7386), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_22___ = new URL(/* asset import */ __webpack_require__(4084), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_23___ = new URL(/* asset import */ __webpack_require__(983), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_24___ = new URL(/* asset import */ __webpack_require__(9195), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_25___ = new URL(/* asset import */ __webpack_require__(6967), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_26___ = new URL(/* asset import */ __webpack_require__(5525), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_27___ = new URL(/* asset import */ __webpack_require__(7500), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_28___ = new URL(/* asset import */ __webpack_require__(6360), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_29___ = new URL(/* asset import */ __webpack_require__(8020), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_30___ = new URL(/* asset import */ __webpack_require__(8566), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_31___ = new URL(/* asset import */ __webpack_require__(7957), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_32___ = new URL(/* asset import */ __webpack_require__(7269), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_33___ = new URL(/* asset import */ __webpack_require__(1792), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_34___ = new URL(/* asset import */ __webpack_require__(9362), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_35___ = new URL(/* asset import */ __webpack_require__(9521), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_36___ = new URL(/* asset import */ __webpack_require__(8873), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_37___ = new URL(/* asset import */ __webpack_require__(3980), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_38___ = new URL(/* asset import */ __webpack_require__(206), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_39___ = new URL(/* asset import */ __webpack_require__(2861), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_40___ = new URL(/* asset import */ __webpack_require__(2527), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_41___ = new URL(/* asset import */ __webpack_require__(2269), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_42___ = new URL(/* asset import */ __webpack_require__(7620), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_43___ = new URL(/* asset import */ __webpack_require__(2070), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_44___ = new URL(/* asset import */ __webpack_require__(4576), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_45___ = new URL(/* asset import */ __webpack_require__(6947), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_46___ = new URL(/* asset import */ __webpack_require__(8362), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_47___ = new URL(/* asset import */ __webpack_require__(788), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_48___ = new URL(/* asset import */ __webpack_require__(6375), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_49___ = new URL(/* asset import */ __webpack_require__(9161), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_50___ = new URL(/* asset import */ __webpack_require__(2039), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_51___ = new URL(/* asset import */ __webpack_require__(1690), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_52___ = new URL(/* asset import */ __webpack_require__(9739), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_53___ = new URL(/* asset import */ __webpack_require__(6734), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_54___ = new URL(/* asset import */ __webpack_require__(7629), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_55___ = new URL(/* asset import */ __webpack_require__(7753), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_56___ = new URL(/* asset import */ __webpack_require__(4760), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_57___ = new URL(/* asset import */ __webpack_require__(3915), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_58___ = new URL(/* asset import */ __webpack_require__(8240), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_59___ = new URL(/* asset import */ __webpack_require__(3595), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_60___ = new URL(/* asset import */ __webpack_require__(1710), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_61___ = new URL(/* asset import */ __webpack_require__(7749), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_62___ = new URL(/* asset import */ __webpack_require__(3648), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_63___ = new URL(/* asset import */ __webpack_require__(4746), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_64___ = new URL(/* asset import */ __webpack_require__(1455), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_65___ = new URL(/* asset import */ __webpack_require__(7796), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_66___ = new URL(/* asset import */ __webpack_require__(8365), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_67___ = new URL(/* asset import */ __webpack_require__(4567), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_68___ = new URL(/* asset import */ __webpack_require__(6484), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_69___ = new URL(/* asset import */ __webpack_require__(4146), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_70___ = new URL(/* asset import */ __webpack_require__(8545), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_71___ = new URL(/* asset import */ __webpack_require__(2120), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_72___ = new URL(/* asset import */ __webpack_require__(4561), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_73___ = new URL(/* asset import */ __webpack_require__(3978), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_74___ = new URL(/* asset import */ __webpack_require__(7839), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_75___ = new URL(/* asset import */ __webpack_require__(7177), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_76___ = new URL(/* asset import */ __webpack_require__(7730), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_77___ = new URL(/* asset import */ __webpack_require__(4144), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_78___ = new URL(/* asset import */ __webpack_require__(4520), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_79___ = new URL(/* asset import */ __webpack_require__(3952), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_80___ = new URL(/* asset import */ __webpack_require__(4601), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_81___ = new URL(/* asset import */ __webpack_require__(6930), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_82___ = new URL(/* asset import */ __webpack_require__(7479), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_83___ = new URL(/* asset import */ __webpack_require__(5441), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_84___ = new URL(/* asset import */ __webpack_require__(8586), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_85___ = new URL(/* asset import */ __webpack_require__(7656), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_86___ = new URL(/* asset import */ __webpack_require__(8178), __webpack_require__.b);
 // Module
 var ___HTML_LOADER_REPLACEMENT_0___ = getUrl_default()(___HTML_LOADER_IMPORT_0___);
 var ___HTML_LOADER_REPLACEMENT_1___ = getUrl_default()(___HTML_LOADER_IMPORT_1___);
@@ -450,7 +890,62 @@ var ___HTML_LOADER_REPLACEMENT_28___ = getUrl_default()(___HTML_LOADER_IMPORT_28
 var ___HTML_LOADER_REPLACEMENT_29___ = getUrl_default()(___HTML_LOADER_IMPORT_29___);
 var ___HTML_LOADER_REPLACEMENT_30___ = getUrl_default()(___HTML_LOADER_IMPORT_30___);
 var ___HTML_LOADER_REPLACEMENT_31___ = getUrl_default()(___HTML_LOADER_IMPORT_31___);
-var code = "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"> <title>Flow</title> </head> <body> <header class=\"header\"> <div class=\"container\"> <div class=\"header__wrapper\"> <div class=\"logo logo_shadow\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\" class=\"logo__icon\" alt=\"flow logotype\"> </div> <nav class=\"nav\"> <div class=\"nav__wrapper\"> <ul class=\"menu\"> <li class=\"menu__item\"> <a href=\"#about\" class=\"menu__link\">About us</a> </li> <li class=\"menu__item\"> <a href=\"#team\" class=\"menu__link\">Team</a> </li> <li class=\"menu__item\"> <a href=\"#solutions\" class=\"menu__link\">Solutions</a> </li> <li class=\"menu__item\"> <a href=\"#blog\" class=\"menu__link\">Blog</a> </li> </ul> <div class=\"nav__footer\"> <div class=\"nav__newsletter\"> <a href=\"/\" class=\"socialLink socialLink_thin\"> <span class=\"customIcon customIcon_link\"> <span class=\"flowIcon flowIcon_mail\"></span> </span> <span class=\"socialLink__text\"> Newsletter </span> </a> </div> <div class=\"nav__socials\"> <a href=\"/\" class=\"socialLink socialLink_icon\"> <span class=\"customIcon customIcon_link\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_1___ + "\" alt=\"facebook\" class=\"flowIcon__img\"> </span> </a> <a href=\"/\" class=\"socialLink socialLink_icon\"> <span class=\"customIcon customIcon_link\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\" alt=\"instagram\" class=\"flowIcon__img\"> </span> </a> <a href=\"/\" class=\"socialLink socialLink_icon\"> <span class=\"customIcon customIcon_link\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_3___ + "\" alt=\"linkedin\" class=\"flowIcon__img\"> </span> </a> </div> </div> </div> </nav> <div class=\"header__getBtn\"> <button class=\"btn btn_primary\"> Get in touch <span class=\"flowIcon flowIcon_arrow-right\"></span> </button> </div> <div class=\"header__burger\"> <button class=\"burgerBtn\" data-for=\"nav\"> <span class=\"burgerBtn__lines\"></span> <span class=\"burgerBtn__lines\"></span> <span class=\"burgerBtn__lines\"></span> </button> </div> </div> </div> </header> <section class=\"promo\"> <div class=\"container\"> <div class=\"promo__content\"> <div class=\"caption\"> Powering Tomorrow </div> <h1>The Future of Green Energy</h1> <p>Our commitment to green energy is paving the way for a cleaner, healthier planet. Join us on a journey towards a future where clean, renewable energy sources transform the way we power our lives.</p> <div class=\"promo__btns\"> <a href=\"#solutions\" class=\"btn btn_primary\">See our solutions</a> <button class=\"btn btn_outline\">Get in touch</button> </div> </div> <div class=\"promo__graphic\"> <div class=\"promo__wrapper\"> <div class=\"promo__background\"> <div class=\"promo__img-wrapper\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_4___ + "\" alt=\"charger\"> </div> </div> <div class=\"promo__charger-wrapper\"> <div class=\"charger\"> <div class=\"charger__location\"> <div class=\"charger__map\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_5___ + "\" alt=\"Sherman Way Parking\"> </div> <div class=\"charger__descr\"> <div class=\"charger__name\">Sherman Way Parking</div> <div class=\"charger__address\">18711 Sherman Way, Reseda, CA 91335, USA</div> </div> </div> <div class=\"charger__plugs-wrapper\"> <div class=\"plugs\"> <div class=\"plugs__title\">Plugs</div> <ul class=\"plugs__list\"> <li class=\"plugs__item\"> <div class=\"plugs__type\"> <div class=\"plugs__icon\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_6___ + "\" alt=\"\" class=\"flowIcon__img\"> </div> <div class=\"plugs__name\">J-1772</div> </div> <div class=\"plugs__badges\"> <span class=\"badge badge_orange\">7.2 kW</span> <span class=\"badge badge_green\">1 available</span> </div> </li> </ul> </div> </div> </div> </div> </div> </div> </div> </section> <div class=\"partners\"> <div class=\"container\"> <div class=\"partners__wrapper\"> <div class=\"partners__label\">Global partners that trusted us</div> <ul class=\"partners__list\"> <li class=\"partners__item\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_7___ + "\" alt=\"logoipsum\"> </li> <li class=\"partners__item\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_8___ + "\" alt=\"logoipsum\"> </li> <li class=\"partners__item\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_9___ + "\" alt=\"logoipsum\"> </li> <li class=\"partners__item\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_10___ + "\" alt=\"logoipsum\"> </li> </ul> </div> </div> </div> <section id=\"solutions\" class=\"solutions\"> <div class=\"solutions__wrapper\"> <div class=\"container\"> <div class=\"caption caption_light\"> Solutions </div> <hr> <h2 class=\"title\"> Key to clean future </h2> <ul class=\"solutions__list\"> <li class=\"solutions__item\"> <span class=\"customIcon\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_11___ + "\" alt=\"\" class=\"customIcon__img\"> </span> <div class=\"solutions__content\"> <div class=\"solutions__title\">EV charging</div> <div class=\"solutions__descr\">EVs use electricity as a power source, which can be generated from renewable energy sources. Our solutions help reducing greenhouse gas emissions in the transportation sector.</div> </div> <div class=\"solutions__link\"> <a href=\"/\" class=\"btn btn_link\">Read more</a> </div> </li> <li class=\"solutions__item\"> <span class=\"customIcon\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_12___ + "\" alt=\"Solar Energy\"> </span> <div class=\"solutions__content\"> <div class=\"solutions__title\">Solar Energy</div> <div class=\"solutions__descr\">Solar panels convert sunlight into electricity. Photovoltaic (PV) cells on these panels capture the energy from the sun and convert it into electrical power.</div> </div> <div class=\"solutions__link\"> <a href=\"/\" class=\"btn btn_link\">Read more</a> </div> </li> <li class=\"solutions__item\"> <span class=\"customIcon customIcon_shadow\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_13___ + "\" alt=\"Wind Energy\"> </span> <div class=\"solutions__content\"> <div class=\"solutions__title\">Wind Energy</div> <div class=\"solutions__descr\">Wind turbines harness the kinetic energy of the wind to generate electricity. Wind farms with multiple turbines are commonly used to produce large amounts of clean energy.</div> </div> <div class=\"solutions__link\"> <a href=\"/\" class=\"btn btn_link\">Read more</a> </div> </li> <li class=\"solutions__item\"> <span class=\"customIcon\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_14___ + "\" alt=\"Hydropower\"> </span> <div class=\"solutions__content\"> <div class=\"solutions__title\">Hydropower</div> <div class=\"solutions__descr\">This technology uses the energy from flowing water, such as rivers and dams, to turn turbines and generate electricity. It's one of the oldest forms of renewable energy.</div> </div> <div class=\"solutions__link\"> <a href=\"/\" class=\"btn btn_link\">Read more</a> </div> </li> </ul> </div> </div> </section> <section id=\"about\" class=\"about\"> <div class=\"container\"> <div class=\"about__wrapper\"> <h2 class=\"title\"> About us </h2> <div class=\"about__content\"> <div class=\"about__descr\"> At Flow, we're committed to a sustainable future. As a pioneering force in the green energy sector, we've been at the forefront of the transition to clean, renewable power sources. Our mission is simple yet profound: to create a world where energy is not only abundant but also environmentally responsible. We believe that by harnessing the power of nature, we can power the world and protect it simultaneously. </div> <div class=\"about__more\"> <a href=\"/\" class=\"btn btn_secondary\">Read more</a> </div> </div> </div> </div> <div class=\"about__carousel\"> <div class=\"about__item\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_15___ + "\" alt=\"Wind station\" class=\"about__img\"> </div> <div class=\"about__item\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_16___ + "\" alt=\"Electrocar\" class=\"about__img\"> </div> <div class=\"about__item\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_17___ + "\" alt=\"Wave\" class=\"about__img\"> </div> <div class=\"about__item\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_18___ + "\" alt=\"A solar panel\" class=\"about__img\"> </div> <div class=\"about__item\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_19___ + "\" alt=\"Nature\" class=\"about__img\"> </div> </div> </section> <div class=\"statistic\"> <div class=\"container\"> <ul class=\"statistic__list\"> <li class=\"statistic__item\"> <div class=\"statistic__value\"> <span class=\"statistic__numb\" data-target=\"5000\">0</span> Mwh </div> <div class=\"statistic__caption\">Renewable Energy Generated</div> </li> <li class=\"statistic__item\"> <div class=\"statistic__value\"> <span class=\"statistic__numb\" data-target=\"2500\">0</span>+ </div> <div class=\"statistic__caption\">Metric Tons of CO2 Reduced</div> </li> <li class=\"statistic__item\"> <div class=\"statistic__value\"> <span class=\"statistic__numb\" data-target=\"10000\">0</span>+ </div> <div class=\"statistic__caption\">Customers Served</div> </li> <li class=\"statistic__item\"> <div class=\"statistic__value\"> <span class=\"statistic__numb\" data-target=\"15\">0</span>% </div> <div class=\"statistic__caption\">Avg. Energy Saved</div> </li> </ul> </div> </div> <section id=\"team\" class=\"team\"> <div class=\"container\"> <div class=\"team__header\"> <div class=\"team__wrapper\"> <h2 class=\"title\"> Meet our experts </h2> <div class=\"descr\"> Our team boasts top green energy experts, driving innovation in sustainability. </div> </div> <div class=\"team__controls\"> <div class=\"team__prev\"> <button class=\"btn btn_link btn_icon\" disabled=\"disabled\"> <span class=\"flowIcon flowIcon_big-arrow-right\"></span> </button> </div> <div class=\"team__next\"> <button class=\"btn btn_link btn_icon\"> <span class=\"flowIcon flowIcon_big-arrow-right\"></span> </button> </div> </div> </div> </div> <div class=\"team__carousel\"> <div class=\"team__person\"> <div class=\"team__picture\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_20___ + "\" alt=\"Willson\"> </div> <div class=\"team__info\"> <div class=\"team__name\">Jenny Wilson</div> <div class=\"team__position\">Senior Sustainability Consultant</div> </div> </div> <div class=\"team__person\"> <div class=\"team__picture\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_21___ + "\" alt=\"Williamson\"> </div> <div class=\"team__info\"> <div class=\"team__name\">Cameron Williamson</div> <div class=\"team__position\">Senior Sustainability Consultant</div> </div> </div> <div class=\"team__person\"> <div class=\"team__picture\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_22___ + "\" alt=\"Henry\"> </div> <div class=\"team__info\"> <div class=\"team__name\">Courtney Henry</div> <div class=\"team__position\">Energy Analysts</div> </div> </div> <div class=\"team__person\"> <div class=\"team__picture\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_23___ + "\" alt=\"Russell\"> </div> <div class=\"team__info\"> <div class=\"team__name\">Dianne Russell</div> <div class=\"team__position\">Senior Renewable Energy Engineer</div> </div> </div> </div> </section> <section class=\"cta\"> <div class=\"container\"> <div class=\"cta__content\"> <h2 class=\"title title_light\"> Join the green movement </h2> <div class=\"descr descr_light\"> Our commitment to green energy is paving the way for a cleaner, healthier planet. </div> <button class=\"btn btn_secondary\">Get in touch</button> </div> </div> <div class=\"cta__graphic\"> <div class=\"cta__picture\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_4___ + "\" alt=\"charger\"> </div> </div> </section> <section id=\"blog\" class=\"blog\"> <div class=\"container\"> <div class=\"blog__header\"> <h2 class=\"title\"> Blog </h2> <a href=\"/\" class=\"btn btn_outline\"> See all <span class=\"flowIcon flowIcon_arrow-right\"></span> </a> </div> <div class=\"blog__list\"> <article class=\"blog__item\"> <div class=\"blog__preview\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_24___ + "\" alt=\"Harnessing the Power of the Sun: Exploring the World of Solar Energy\" class=\"blog__img\"> </div> <div class=\"blog__badges\"> <span class=\"badge badge_white\">Solar Power</span> <span class=\"badge badge_white\">Solutions</span> </div> <div class=\"blog__content\"> <h3 class=\"blog__title\"> Harnessing the Power of the Sun: Exploring the World of Solar Energy </h3> <p class=\"blog__descr\"> Solar energy is revolutionizing the way we power our world. In this blog post, we'll delve into the incredible potential of solar technology, its environmental benefits, and how you can tap into this sustainable energy source for a brighter future. </p> <footer class=\"blog__footer\"> <div class=\"blog__author\"> <div class=\"blog__avatar\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_25___ + "\" alt=\"Leslie Alexander - author\"> </div> Leslie Alexander </div> <div class=\"blog__divider\"></div> <div class=\"blog__created\"> 9 min read </div> </footer> </div> </article> <article class=\"blog__item\"> <div class=\"blog__preview\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_26___ + "\" alt=\"Harnessing the Power of the Sun: Exploring the World of Solar Energy\" class=\"blog__img\"> </div> <div class=\"blog__content\"> <h3 class=\"blog__title\"> Wind Power: A Breath of Fresh Air for Clean Energy Enthusiasts </h3> <footer class=\"blog__footer\"> <div class=\"blog__author\"> <div class=\"blog__avatar\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_27___ + "\" alt=\"Wade Warren - author\"> </div> Wade Warren </div> <div class=\"blog__divider\"></div> <div class=\"blog__created\"> 7 min read </div> </footer> </div> </article> <article class=\"blog__item\"> <div class=\"blog__preview\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_28___ + "\" alt=\"Harnessing the Power of the Sun: Exploring the World of Solar Energy\" class=\"blog__img\"> </div> <div class=\"blog__content\"> <h3 class=\"blog__title\"> From Trash to Treasure: The Promising World of Biomass Energy </h3> <footer class=\"blog__footer\"> <div class=\"blog__author\"> <div class=\"blog__avatar\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_29___ + "\" alt=\"Jenny Wilson - author\"> </div> Jenny Wilson </div> <div class=\"blog__divider\"></div> <div class=\"blog__created\"> 12 min read </div> </footer> </div> </article> <article class=\"blog__item\"> <div class=\"blog__preview\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_30___ + "\" alt=\"Harnessing the Power of the Sun: Exploring the World of Solar Energy\" class=\"blog__img\"> </div> <div class=\"blog__content\"> <h3 class=\"blog__title\"> Hydrogen: Fueling the Green Energy Revolution </h3> <footer class=\"blog__footer\"> <div class=\"blog__author\"> <div class=\"blog__avatar\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_25___ + "\" alt=\"Leslie Alexander - author\"> </div> Leslie Alexander </div> <div class=\"blog__divider\"></div> <div class=\"blog__created\"> 5 min read </div> </footer> </div> </article> </div> </div> </section> <section class=\"faq\"> <div class=\"container\"> <h2 class=\"title title_center\"> FAQ </h2> <div class=\"descr descr_center\"> Here you will find the answers to the frequently asked questions. </div> <div class=\"faq__list\"> <div class=\"accordion\"> <div class=\"accordion__header\"> <div class=\"accordion__title\">What is green energy?</div> <div class=\"accordion__icon\"> <span class=\"flowIcon flowIcon_plus\"></span> </div> </div> <div class=\"accordion__wrapper\"> <div class=\"accordion__descr\"> Green energy, also known as renewable energy, is derived from natural sources that are replenished on a human timescale. This includes solar, wind, hydro, geothermal, and biomass energy, among others. </div> </div> </div> <div class=\"accordion\"> <div class=\"accordion__header\"> <div class=\"accordion__title\">What is green energy?</div> <div class=\"accordion__icon\"> <span class=\"flowIcon flowIcon_plus\"></span> </div> </div> <div class=\"accordion__wrapper\"> <div class=\"accordion__descr\"> Green energy, also known as renewable energy, is derived from natural sources that are replenished on a human timescale. This includes solar, wind, hydro, geothermal, and biomass energy, among others. </div> </div> </div> <div class=\"accordion\"> <div class=\"accordion__header\"> <div class=\"accordion__title\">How does green energy benefit the environment?</div> <div class=\"accordion__icon\"> <span class=\"flowIcon flowIcon_plus\"></span> </div> </div> <div class=\"accordion__wrapper\"> <div class=\"accordion__descr\"> Green energy reduces the reliance on fossil fuels, lowering greenhouse gas emissions and mitigating climate change. It also helps conserve natural resources and promotes a cleaner, sustainable future. </div> </div> </div> <div class=\"accordion\"> <div class=\"accordion__header\"> <div class=\"accordion__title\">How does green energy benefit the environment?</div> <div class=\"accordion__icon\"> <span class=\"flowIcon flowIcon_plus\"></span> </div> </div> <div class=\"accordion__wrapper\"> <div class=\"accordion__descr\"> Green energy reduces the reliance on fossil fuels, lowering greenhouse gas emissions and mitigating climate change. It also helps conserve natural resources and promotes a cleaner, sustainable future. </div> </div> </div> <div class=\"accordion\"> <div class=\"accordion__header\"> <div class=\"accordion__title\">What green energy solutions does your company offer?</div> <div class=\"accordion__icon\"> <span class=\"flowIcon flowIcon_plus\"></span> </div> </div> <div class=\"accordion__wrapper\"> <div class=\"accordion__descr\"> We provide a range of green energy solutions, including solar power systems, wind turbines, energy-efficient appliances, and smart home technologies to enhance energy sustainability. </div> </div> </div> <div class=\"accordion\"> <div class=\"accordion__header\"> <div class=\"accordion__title\">What green energy solutions does your company offer?</div> <div class=\"accordion__icon\"> <span class=\"flowIcon flowIcon_plus\"></span> </div> </div> <div class=\"accordion__wrapper\"> <div class=\"accordion__descr\"> We provide a range of green energy solutions, including solar power systems, wind turbines, energy-efficient appliances, and smart home technologies to enhance energy sustainability. </div> </div> </div> <div class=\"accordion\"> <div class=\"accordion__header\"> <div class=\"accordion__title\">What support services do you offer after installing green energy solutions? </div> <div class=\"accordion__icon\"> <span class=\"flowIcon flowIcon_plus\"></span> </div> </div> <div class=\"accordion__wrapper\"> <div class=\"accordion__descr\"> We offer ongoing maintenance, monitoring, and support services to ensure the optimal performance and longevity of your green energy system. Our team is ready to assist with any issues that may arise. </div> </div> </div> <div class=\"accordion\"> <div class=\"accordion__header\"> <div class=\"accordion__title\">What support services do you offer after installing green energy solutions? </div> <div class=\"accordion__icon\"> <span class=\"flowIcon flowIcon_plus\"></span> </div> </div> <div class=\"accordion__wrapper\"> <div class=\"accordion__descr\"> We offer ongoing maintenance, monitoring, and support services to ensure the optimal performance and longevity of your green energy system. Our team is ready to assist with any issues that may arise. </div> </div> </div> <div class=\"accordion\"> <div class=\"accordion__header\"> <div class=\"accordion__title\">How do solar panels work?</div> <div class=\"accordion__icon\"> <span class=\"flowIcon flowIcon_plus\"></span> </div> </div> <div class=\"accordion__wrapper\"> <div class=\"accordion__descr\"> Solar panels convert sunlight into electricity through photovoltaic cells. These cells generate direct current (DC), which is then converted into usable alternating current (AC) for household or commercial use. </div> </div> </div> <div class=\"accordion\"> <div class=\"accordion__header\"> <div class=\"accordion__title\">How do solar panels work?</div> <div class=\"accordion__icon\"> <span class=\"flowIcon flowIcon_plus\"></span> </div> </div> <div class=\"accordion__wrapper\"> <div class=\"accordion__descr\"> Solar panels convert sunlight into electricity through photovoltaic cells. These cells generate direct current (DC), which is then converted into usable alternating current (AC) for household or commercial use. </div> </div> </div> </div> <div class=\"faq__information\"> <div class=\"information\"> <span class=\"customIcon\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_31___ + "\" alt=\"help\" class=\"flowIcon__img\"> </span> <div class=\"information__title\">Still have questions?</div> <div class=\"information__descr\"> For assistance, please visit our <a href=\"/\" class=\"information__link information__link_underline\">Contact Us</a> page or call our customer support hotline at <a href=\"tel:+16715550110\" class=\"information__link\">(671) 555-0110</a>. Our dedicated team is ready to help you on your journey to a greener, more sustainable future. </div> </div> </div> </div> </section> <section class=\"reviews\"> <div class=\"container\"> <h2 class=\"title title_center\"> What our customers say </h2> <div class=\"descr descr_center\"> Thousands of happy customers that changed their energy use </div> <div class=\"reviews__wrapper\"> <div class=\"reviews__carousel\"> <div class=\"review\"> <div class=\"review__stars\"> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> </div> <div class=\"review__text\"> “Flow transformed my energy use. Efficient, green tech, outstanding service!” </div> <div class=\"review__author\"> <div class=\"review__name\">Jenny Wilson</div> <div class=\"review__company\">Solar energy service</div> </div> </div> <div class=\"review\"> <div class=\"review__stars\"> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> </div> <div class=\"review__text\"> “Flow transformed my energy use. Efficient, green tech, outstanding service! 2” </div> <div class=\"review__author\"> <div class=\"review__name\">Jenny Wilson</div> <div class=\"review__company\">Solar energy service</div> </div> </div> <div class=\"review\"> <div class=\"review__stars\"> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> </div> <div class=\"review__text\"> “Flow transformed my energy use. Efficient, green tech, outstanding service! 3” </div> <div class=\"review__author\"> <div class=\"review__name\">Jenny Wilson</div> <div class=\"review__company\">Solar energy service</div> </div> </div> </div> <div class=\"reviews__nav\"> <div class=\"reviews__prev\"> <button class=\"btn btn_link\"><span class=\"flowIcon flowIcon_arrow-left\"></span></button> </div> <div class=\"reviews__next\"> <button class=\"btn btn_link\"><span class=\"flowIcon flowIcon_arrow-right\"></span></button> </div> </div> </div> </div>  </section> <section class=\"subscription\"> <div class=\"subscription__bg\"> <div class=\"container\"> <div class=\"subscription__wrapper\"> <h2 class=\"title title_light\"> Your Source for Green Energy Updates </h2> <form class=\"subscription__form\"> <div class=\"subscription__input\"> <input type=\"email\" class=\"input\" placeholder=\"Your e-mail...\" required> </div> <button class=\"btn btn_secondary\">Get in touch</button> </form> </div> </div> </div> </section> <footer class=\"footer\"> <div class=\"container\"> <div class=\"footer__wrapper\"> <div class=\"logo\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\" class=\"logo__icon\" alt=\"flow logotype\"> </div> <div class=\"footer__nav\"> <ul class=\"navLinks\"> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">Platform</a></li> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">Solutions</a></li> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">How it works</a></li> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">Pricing</a></li> </ul> <ul class=\"navLinks\"> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">Company</a></li> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">About</a></li> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">Our Mission</a></li> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">Careers <span class=\"badge badge_secondary badge_strict\">HIRING</span></a></li> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">Contact</a></li> </ul> <ul class=\"navLinks\"> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">Resources</a></li> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">Blog</a></li> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">Help Center</a></li> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">Support</a></li> </ul> </div> <div class=\"footer__socials\"> <a href=\"/\" class=\"socialLink\"> <span class=\"customIcon customIcon_circle\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_1___ + "\" alt=\"facebook\" class=\"flowIcon__img\"> </span> <span class=\"socialLink__text\"> Follow us on Facebook </span> </a> <a href=\"/\" class=\"socialLink\"> <span class=\"customIcon customIcon_circle\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\" alt=\"instagram\" class=\"flowIcon__img\"> </span> <span class=\"socialLink__text\"> Follow us on Instagram </span> </a> <a href=\"/\" class=\"socialLink\"> <span class=\"customIcon customIcon_circle\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_3___ + "\" alt=\"linkedin\" class=\"flowIcon__img\"> </span> <span class=\"socialLink__text\"> Follow us on LinkedIn </span> </a> </div> </div> <div class=\"footer__copyright\"> © 2024 Flow. All rights reserved. </div> </div> </footer> </body> </html>";
+var ___HTML_LOADER_REPLACEMENT_32___ = getUrl_default()(___HTML_LOADER_IMPORT_32___);
+var ___HTML_LOADER_REPLACEMENT_33___ = getUrl_default()(___HTML_LOADER_IMPORT_33___);
+var ___HTML_LOADER_REPLACEMENT_34___ = getUrl_default()(___HTML_LOADER_IMPORT_34___);
+var ___HTML_LOADER_REPLACEMENT_35___ = getUrl_default()(___HTML_LOADER_IMPORT_35___);
+var ___HTML_LOADER_REPLACEMENT_36___ = getUrl_default()(___HTML_LOADER_IMPORT_36___);
+var ___HTML_LOADER_REPLACEMENT_37___ = getUrl_default()(___HTML_LOADER_IMPORT_37___);
+var ___HTML_LOADER_REPLACEMENT_38___ = getUrl_default()(___HTML_LOADER_IMPORT_38___);
+var ___HTML_LOADER_REPLACEMENT_39___ = getUrl_default()(___HTML_LOADER_IMPORT_39___);
+var ___HTML_LOADER_REPLACEMENT_40___ = getUrl_default()(___HTML_LOADER_IMPORT_40___);
+var ___HTML_LOADER_REPLACEMENT_41___ = getUrl_default()(___HTML_LOADER_IMPORT_41___);
+var ___HTML_LOADER_REPLACEMENT_42___ = getUrl_default()(___HTML_LOADER_IMPORT_42___);
+var ___HTML_LOADER_REPLACEMENT_43___ = getUrl_default()(___HTML_LOADER_IMPORT_43___);
+var ___HTML_LOADER_REPLACEMENT_44___ = getUrl_default()(___HTML_LOADER_IMPORT_44___);
+var ___HTML_LOADER_REPLACEMENT_45___ = getUrl_default()(___HTML_LOADER_IMPORT_45___);
+var ___HTML_LOADER_REPLACEMENT_46___ = getUrl_default()(___HTML_LOADER_IMPORT_46___);
+var ___HTML_LOADER_REPLACEMENT_47___ = getUrl_default()(___HTML_LOADER_IMPORT_47___);
+var ___HTML_LOADER_REPLACEMENT_48___ = getUrl_default()(___HTML_LOADER_IMPORT_48___);
+var ___HTML_LOADER_REPLACEMENT_49___ = getUrl_default()(___HTML_LOADER_IMPORT_49___);
+var ___HTML_LOADER_REPLACEMENT_50___ = getUrl_default()(___HTML_LOADER_IMPORT_50___);
+var ___HTML_LOADER_REPLACEMENT_51___ = getUrl_default()(___HTML_LOADER_IMPORT_51___);
+var ___HTML_LOADER_REPLACEMENT_52___ = getUrl_default()(___HTML_LOADER_IMPORT_52___);
+var ___HTML_LOADER_REPLACEMENT_53___ = getUrl_default()(___HTML_LOADER_IMPORT_53___);
+var ___HTML_LOADER_REPLACEMENT_54___ = getUrl_default()(___HTML_LOADER_IMPORT_54___);
+var ___HTML_LOADER_REPLACEMENT_55___ = getUrl_default()(___HTML_LOADER_IMPORT_55___);
+var ___HTML_LOADER_REPLACEMENT_56___ = getUrl_default()(___HTML_LOADER_IMPORT_56___);
+var ___HTML_LOADER_REPLACEMENT_57___ = getUrl_default()(___HTML_LOADER_IMPORT_57___);
+var ___HTML_LOADER_REPLACEMENT_58___ = getUrl_default()(___HTML_LOADER_IMPORT_58___);
+var ___HTML_LOADER_REPLACEMENT_59___ = getUrl_default()(___HTML_LOADER_IMPORT_59___);
+var ___HTML_LOADER_REPLACEMENT_60___ = getUrl_default()(___HTML_LOADER_IMPORT_60___);
+var ___HTML_LOADER_REPLACEMENT_61___ = getUrl_default()(___HTML_LOADER_IMPORT_61___);
+var ___HTML_LOADER_REPLACEMENT_62___ = getUrl_default()(___HTML_LOADER_IMPORT_62___);
+var ___HTML_LOADER_REPLACEMENT_63___ = getUrl_default()(___HTML_LOADER_IMPORT_63___);
+var ___HTML_LOADER_REPLACEMENT_64___ = getUrl_default()(___HTML_LOADER_IMPORT_64___);
+var ___HTML_LOADER_REPLACEMENT_65___ = getUrl_default()(___HTML_LOADER_IMPORT_65___);
+var ___HTML_LOADER_REPLACEMENT_66___ = getUrl_default()(___HTML_LOADER_IMPORT_66___);
+var ___HTML_LOADER_REPLACEMENT_67___ = getUrl_default()(___HTML_LOADER_IMPORT_67___);
+var ___HTML_LOADER_REPLACEMENT_68___ = getUrl_default()(___HTML_LOADER_IMPORT_68___);
+var ___HTML_LOADER_REPLACEMENT_69___ = getUrl_default()(___HTML_LOADER_IMPORT_69___);
+var ___HTML_LOADER_REPLACEMENT_70___ = getUrl_default()(___HTML_LOADER_IMPORT_70___);
+var ___HTML_LOADER_REPLACEMENT_71___ = getUrl_default()(___HTML_LOADER_IMPORT_71___);
+var ___HTML_LOADER_REPLACEMENT_72___ = getUrl_default()(___HTML_LOADER_IMPORT_72___);
+var ___HTML_LOADER_REPLACEMENT_73___ = getUrl_default()(___HTML_LOADER_IMPORT_73___);
+var ___HTML_LOADER_REPLACEMENT_74___ = getUrl_default()(___HTML_LOADER_IMPORT_74___);
+var ___HTML_LOADER_REPLACEMENT_75___ = getUrl_default()(___HTML_LOADER_IMPORT_75___);
+var ___HTML_LOADER_REPLACEMENT_76___ = getUrl_default()(___HTML_LOADER_IMPORT_76___);
+var ___HTML_LOADER_REPLACEMENT_77___ = getUrl_default()(___HTML_LOADER_IMPORT_77___);
+var ___HTML_LOADER_REPLACEMENT_78___ = getUrl_default()(___HTML_LOADER_IMPORT_78___);
+var ___HTML_LOADER_REPLACEMENT_79___ = getUrl_default()(___HTML_LOADER_IMPORT_79___);
+var ___HTML_LOADER_REPLACEMENT_80___ = getUrl_default()(___HTML_LOADER_IMPORT_80___);
+var ___HTML_LOADER_REPLACEMENT_81___ = getUrl_default()(___HTML_LOADER_IMPORT_81___);
+var ___HTML_LOADER_REPLACEMENT_82___ = getUrl_default()(___HTML_LOADER_IMPORT_82___);
+var ___HTML_LOADER_REPLACEMENT_83___ = getUrl_default()(___HTML_LOADER_IMPORT_83___);
+var ___HTML_LOADER_REPLACEMENT_84___ = getUrl_default()(___HTML_LOADER_IMPORT_84___);
+var ___HTML_LOADER_REPLACEMENT_85___ = getUrl_default()(___HTML_LOADER_IMPORT_85___);
+var ___HTML_LOADER_REPLACEMENT_86___ = getUrl_default()(___HTML_LOADER_IMPORT_86___);
+var code = "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"> <title>Flow</title> </head> <body> <header class=\"header\"> <div class=\"container\"> <div class=\"header__wrapper\"> <div class=\"logo logo_shadow\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\" class=\"logo__icon\" alt=\"flow logotype\"> </div> <nav class=\"nav\"> <div class=\"nav__wrapper\"> <ul class=\"menu\"> <li class=\"menu__item\"> <a href=\"#about\" class=\"menu__link\">About us</a> </li> <li class=\"menu__item\"> <a href=\"#team\" class=\"menu__link\">Team</a> </li> <li class=\"menu__item\"> <a href=\"#solutions\" class=\"menu__link\">Solutions</a> </li> <li class=\"menu__item\"> <a href=\"#blog\" class=\"menu__link\">Blog</a> </li> </ul> <div class=\"nav__footer\"> <div class=\"nav__newsletter\"> <a href=\"/\" class=\"socialLink socialLink_thin\"> <span class=\"customIcon customIcon_link\"> <span class=\"flowIcon flowIcon_mail\"></span> </span> <span class=\"socialLink__text\"> Newsletter </span> </a> </div> <div class=\"nav__socials\"> <a href=\"/\" class=\"socialLink socialLink_icon\"> <span class=\"customIcon customIcon_link\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_1___ + "\" alt=\"facebook\" class=\"flowIcon__img\"> </span> </a> <a href=\"/\" class=\"socialLink socialLink_icon\"> <span class=\"customIcon customIcon_link\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\" alt=\"instagram\" class=\"flowIcon__img\"> </span> </a> <a href=\"/\" class=\"socialLink socialLink_icon\"> <span class=\"customIcon customIcon_link\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_3___ + "\" alt=\"linkedin\" class=\"flowIcon__img\"> </span> </a> </div> </div> </div> </nav> <div class=\"header__getBtn\"> <button class=\"btn btn_primary\"> Get in touch <span class=\"flowIcon flowIcon_arrow-right\"></span> </button> </div> <div class=\"header__burger\"> <button class=\"burgerBtn\" data-for=\"nav\"> <span class=\"burgerBtn__lines\"></span> <span class=\"burgerBtn__lines\"></span> <span class=\"burgerBtn__lines\"></span> </button> </div> </div> </div> </header> <section class=\"promo\"> <div class=\"container\"> <div class=\"promo__content\"> <div class=\"caption\"> Powering Tomorrow </div> <h1>The Future of Green Energy</h1> <p>Our commitment to green energy is paving the way for a cleaner, healthier planet. Join us on a journey towards a future where clean, renewable energy sources transform the way we power our lives.</p> <div class=\"promo__btns\"> <a href=\"#solutions\" class=\"btn btn_primary\">See our solutions</a> <button class=\"btn btn_outline\">Get in touch</button> </div> </div> <div class=\"promo__graphic\"> <div class=\"promo__wrapper\"> <div class=\"promo__background\"> <div class=\"promo__img-wrapper\"> <picture> <source sizes=\"(max-width: 1337px) 40vw, 600px\" srcset=\"" + ___HTML_LOADER_REPLACEMENT_4___ + " 450w, " + ___HTML_LOADER_REPLACEMENT_5___ + " 600w\" type=\"image/avif\"> <source sizes=\"(max-width: 1337px) 40vw, 600px\" srcset=\"" + ___HTML_LOADER_REPLACEMENT_6___ + " 450w, " + ___HTML_LOADER_REPLACEMENT_7___ + " 600w\" type=\"image/webp\"> <source sizes=\"(max-width: 1337px) 40vw, 600px\" srcset=\"" + ___HTML_LOADER_REPLACEMENT_8___ + " 450w, " + ___HTML_LOADER_REPLACEMENT_9___ + " 600w\" type=\"image/jpeg\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_10___ + "\" alt=\"charger\"> </picture> </div> </div> <div class=\"promo__charger-wrapper\"> <div class=\"charger\"> <div class=\"charger__location\"> <div class=\"charger__map\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_11___ + "\" alt=\"Sherman Way Parking\"> </div> <div class=\"charger__descr\"> <div class=\"charger__name\">Sherman Way Parking</div> <div class=\"charger__address\">18711 Sherman Way, Reseda, CA 91335, USA</div> </div> </div> <div class=\"charger__plugs-wrapper\"> <div class=\"plugs\"> <div class=\"plugs__title\">Plugs</div> <ul class=\"plugs__list\"> <li class=\"plugs__item\"> <div class=\"plugs__type\"> <div class=\"plugs__icon\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_12___ + "\" alt=\"\" class=\"flowIcon__img\"> </div> <div class=\"plugs__name\">J-1772</div> </div> <div class=\"plugs__badges\"> <span class=\"badge badge_orange\">7.2 kW</span> <span class=\"badge badge_green\">1 available</span> </div> </li> </ul> </div> </div> </div> </div> </div> </div> </div> </section> <div class=\"partners\"> <div class=\"container\"> <div class=\"partners__wrapper\"> <div class=\"partners__label\">Global partners that trusted us</div> <ul class=\"partners__list\"> <li class=\"partners__item\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_13___ + "\" alt=\"logoipsum\"> </li> <li class=\"partners__item\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_14___ + "\" alt=\"logoipsum\"> </li> <li class=\"partners__item\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_15___ + "\" alt=\"logoipsum\"> </li> <li class=\"partners__item\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_16___ + "\" alt=\"logoipsum\"> </li> </ul> </div> </div> </div> <section id=\"solutions\" class=\"solutions\"> <div class=\"solutions__wrapper\"> <div class=\"container\"> <div class=\"caption caption_light\"> Solutions </div> <hr> <h2 class=\"title\"> Key to clean future </h2> <ul class=\"solutions__list\"> <li class=\"solutions__item\"> <span class=\"customIcon\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_17___ + "\" alt=\"\" class=\"customIcon__img\"> </span> <div class=\"solutions__content\"> <div class=\"solutions__title\">EV charging</div> <div class=\"solutions__descr\">EVs use electricity as a power source, which can be generated from renewable energy sources. Our solutions help reducing greenhouse gas emissions in the transportation sector.</div> </div> <div class=\"solutions__link\"> <a href=\"/\" class=\"btn btn_link\">Read more</a> </div> </li> <li class=\"solutions__item\"> <span class=\"customIcon\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_18___ + "\" alt=\"Solar Energy\"> </span> <div class=\"solutions__content\"> <div class=\"solutions__title\">Solar Energy</div> <div class=\"solutions__descr\">Solar panels convert sunlight into electricity. Photovoltaic (PV) cells on these panels capture the energy from the sun and convert it into electrical power.</div> </div> <div class=\"solutions__link\"> <a href=\"/\" class=\"btn btn_link\">Read more</a> </div> </li> <li class=\"solutions__item\"> <span class=\"customIcon customIcon_shadow\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_19___ + "\" alt=\"Wind Energy\"> </span> <div class=\"solutions__content\"> <div class=\"solutions__title\">Wind Energy</div> <div class=\"solutions__descr\">Wind turbines harness the kinetic energy of the wind to generate electricity. Wind farms with multiple turbines are commonly used to produce large amounts of clean energy.</div> </div> <div class=\"solutions__link\"> <a href=\"/\" class=\"btn btn_link\">Read more</a> </div> </li> <li class=\"solutions__item\"> <span class=\"customIcon\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_20___ + "\" alt=\"Hydropower\"> </span> <div class=\"solutions__content\"> <div class=\"solutions__title\">Hydropower</div> <div class=\"solutions__descr\">This technology uses the energy from flowing water, such as rivers and dams, to turn turbines and generate electricity. It's one of the oldest forms of renewable energy.</div> </div> <div class=\"solutions__link\"> <a href=\"/\" class=\"btn btn_link\">Read more</a> </div> </li> </ul> </div> </div> </section> <section id=\"about\" class=\"about\"> <div class=\"container\"> <div class=\"about__wrapper\"> <h2 class=\"title\"> About us </h2> <div class=\"about__content\"> <div class=\"about__descr\"> At Flow, we're committed to a sustainable future. As a pioneering force in the green energy sector, we've been at the forefront of the transition to clean, renewable power sources. Our mission is simple yet profound: to create a world where energy is not only abundant but also environmentally responsible. We believe that by harnessing the power of nature, we can power the world and protect it simultaneously. </div> <div class=\"about__more\"> <a href=\"/\" class=\"btn btn_secondary\">Read more</a> </div> </div> </div> </div> <div class=\"about__carousel\"> <div class=\"about__item\"> <picture> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_21___ + "\" type=\"image/avif\"> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_22___ + "\" type=\"image/webp\"> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_23___ + "\" type=\"image/jpeg\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_24___ + "\" alt=\"Wind station\" class=\"about__img\"> </picture> </div> <div class=\"about__item\"> <picture> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_25___ + "\" type=\"image/avif\"> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_26___ + "\" type=\"image/webp\"> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_27___ + "\" type=\"image/jpeg\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_28___ + "\" alt=\"Wind station\" class=\"about__img\"> </picture> </div> <div class=\"about__item\"> <picture> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_29___ + "\" type=\"image/avif\"> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_30___ + "\" type=\"image/webp\"> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_31___ + "\" type=\"image/jpeg\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_32___ + "\" alt=\"Wind station\" class=\"about__img\"> </picture> </div> <div class=\"about__item\"> <picture> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_33___ + "\" type=\"image/avif\"> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_34___ + "\" type=\"image/webp\"> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_35___ + "\" type=\"image/jpeg\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_36___ + "\" alt=\"Wind station\" class=\"about__img\"> </picture> </div> <div class=\"about__item\"> <picture> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_33___ + "\" type=\"image/avif\"> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_34___ + "\" type=\"image/webp\"> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_35___ + "\" type=\"image/jpeg\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_36___ + "\" alt=\"Wind station\" class=\"about__img\"> </picture> </div> </div> </section> <div class=\"statistic\"> <div class=\"container\"> <ul class=\"statistic__list\"> <li class=\"statistic__item\"> <div class=\"statistic__value\"> <span class=\"statistic__numb\" data-target=\"5000\">0</span> Mwh </div> <div class=\"statistic__caption\">Renewable Energy Generated</div> </li> <li class=\"statistic__item\"> <div class=\"statistic__value\"> <span class=\"statistic__numb\" data-target=\"2500\">0</span>+ </div> <div class=\"statistic__caption\">Metric Tons of CO2 Reduced</div> </li> <li class=\"statistic__item\"> <div class=\"statistic__value\"> <span class=\"statistic__numb\" data-target=\"10000\">0</span>+ </div> <div class=\"statistic__caption\">Customers Served</div> </li> <li class=\"statistic__item\"> <div class=\"statistic__value\"> <span class=\"statistic__numb\" data-target=\"15\">0</span>% </div> <div class=\"statistic__caption\">Avg. Energy Saved</div> </li> </ul> </div> </div> <section id=\"team\" class=\"team\"> <div class=\"container\"> <div class=\"team__header\"> <div class=\"team__wrapper\"> <h2 class=\"title\"> Meet our experts </h2> <div class=\"descr\"> Our team boasts top green energy experts, driving innovation in sustainability. </div> </div> <div class=\"team__controls\"> <div class=\"team__prev\"> <button class=\"btn btn_link btn_icon\" disabled=\"disabled\"> <span class=\"flowIcon flowIcon_big-arrow-right\"></span> </button> </div> <div class=\"team__next\"> <button class=\"btn btn_link btn_icon\"> <span class=\"flowIcon flowIcon_big-arrow-right\"></span> </button> </div> </div> </div> </div> <div class=\"team__carousel\"> <div class=\"team__person\"> <div class=\"team__picture\"> <picture> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_37___ + "\" type=\"image/avif\"> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_38___ + "\" type=\"image/webp\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_39___ + "\" alt=\"Willson\"> </picture> </div> <div class=\"team__info\"> <div class=\"team__name\">Jenny Wilson</div> <div class=\"team__position\">Senior Sustainability Consultant</div> </div> </div> <div class=\"team__person\"> <div class=\"team__picture\"> <picture> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_40___ + "\" type=\"image/avif\"> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_41___ + "\" type=\"image/webp\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_42___ + "\" alt=\"Williamson\"> </picture> </div> <div class=\"team__info\"> <div class=\"team__name\">Cameron Williamson</div> <div class=\"team__position\">Senior Sustainability Consultant</div> </div> </div> <div class=\"team__person\"> <div class=\"team__picture\"> <picture> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_43___ + "\" type=\"image/avif\"> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_44___ + "\" type=\"image/webp\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_45___ + "\" alt=\"Henry\"> </picture> </div> <div class=\"team__info\"> <div class=\"team__name\">Courtney Henry</div> <div class=\"team__position\">Energy Analysts</div> </div> </div> <div class=\"team__person\"> <div class=\"team__picture\"> <picture> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_46___ + "\" type=\"image/avif\"> <source srcset=\"" + ___HTML_LOADER_REPLACEMENT_47___ + "\" type=\"image/webp\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_48___ + "\" alt=\"Russell\"> </picture> </div> <div class=\"team__info\"> <div class=\"team__name\">Dianne Russell</div> <div class=\"team__position\">Senior Renewable Energy Engineer</div> </div> </div> </div> </section> <section class=\"cta\"> <div class=\"container\"> <div class=\"cta__content\"> <h2 class=\"title title_light\"> Join the green movement </h2> <div class=\"descr descr_light\"> Our commitment to green energy is paving the way for a cleaner, healthier planet. </div> <button class=\"btn btn_secondary\">Get in touch</button> </div> </div> <div class=\"cta__graphic\"> <div class=\"cta__picture\"> <picture> <source sizes=\"(max-width: 1222px) 200px, 452px\" srcset=\"" + ___HTML_LOADER_REPLACEMENT_49___ + " 200w, " + ___HTML_LOADER_REPLACEMENT_4___ + " 450w\" type=\"image/avif\"> <source sizes=\"(max-width: 1222px) 200px, 452px\" srcset=\"" + ___HTML_LOADER_REPLACEMENT_50___ + " 200w, " + ___HTML_LOADER_REPLACEMENT_6___ + " 450w\" type=\"image/webp\"> <source sizes=\"(max-width: 1222px) 200px, 452px\" srcset=\"" + ___HTML_LOADER_REPLACEMENT_51___ + " 200w, " + ___HTML_LOADER_REPLACEMENT_8___ + " 450w\" type=\"image/jpeg\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_10___ + "\" alt=\"charger\"> </picture> <img src=\"" + ___HTML_LOADER_REPLACEMENT_10___ + "\" alt=\"charger\"> </div> </div> </section> <section id=\"blog\" class=\"blog\"> <div class=\"container\"> <div class=\"blog__header\"> <h2 class=\"title\"> Blog </h2> <a href=\"/\" class=\"btn btn_outline\"> See all <span class=\"flowIcon flowIcon_arrow-right\"></span> </a> </div> <div class=\"blog__list\"> <article class=\"blog__item\"> <div class=\"blog__preview\"> <picture> <source sizes=\"(max-width: 768px) 100vw, (max-width: 1085px) 50vw, 630px\" srcset=\"" + ___HTML_LOADER_REPLACEMENT_52___ + " 200w, " + ___HTML_LOADER_REPLACEMENT_53___ + " 500w, " + ___HTML_LOADER_REPLACEMENT_54___ + " 750w\" type=\"image/avif\"> <source sizes=\"(max-width: 768px) 100vw, (max-width: 1085px) 50vw, 630px\" srcset=\"" + ___HTML_LOADER_REPLACEMENT_55___ + " 200w, " + ___HTML_LOADER_REPLACEMENT_56___ + " 500w, " + ___HTML_LOADER_REPLACEMENT_57___ + " 750w\" type=\"image/webp\"> <source sizes=\"(max-width: 768px) 100vw, (max-width: 1085px) 50vw, 630px\" srcset=\"" + ___HTML_LOADER_REPLACEMENT_58___ + " 200w, " + ___HTML_LOADER_REPLACEMENT_59___ + " 500w, " + ___HTML_LOADER_REPLACEMENT_60___ + " 750w\" type=\"image/jpeg\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_61___ + "\" alt=\"Harnessing the Power of the Sun: Exploring the World of Solar Energy\" class=\"blog__img\"> </picture> </div> <div class=\"blog__badges\"> <span class=\"badge badge_white\">Solar Power</span> <span class=\"badge badge_white\">Solutions</span> </div> <div class=\"blog__content\"> <h3 class=\"blog__title\"> Harnessing the Power of the Sun: Exploring the World of Solar Energy </h3> <p class=\"blog__descr\"> Solar energy is revolutionizing the way we power our world. In this blog post, we'll delve into the incredible potential of solar technology, its environmental benefits, and how you can tap into this sustainable energy source for a brighter future. </p> <footer class=\"blog__footer\"> <div class=\"blog__author\"> <div class=\"blog__avatar\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_62___ + "\" alt=\"Leslie Alexander - author\"> </div> Leslie Alexander </div> <div class=\"blog__divider\"></div> <div class=\"blog__created\"> 9 min read </div> </footer> </div> </article> <article class=\"blog__item\"> <div class=\"blog__preview\"> <picture> <source sizes=\"(max-width: 425px) 100vw, 177px\" srcset=\"" + ___HTML_LOADER_REPLACEMENT_63___ + " 200w, " + ___HTML_LOADER_REPLACEMENT_64___ + " 500w\" type=\"image/avif\"> <source sizes=\"(max-width: 425px) 100vw, 177px\" srcset=\"" + ___HTML_LOADER_REPLACEMENT_65___ + " 200w, " + ___HTML_LOADER_REPLACEMENT_66___ + " 500w\" type=\"image/webp\"> <source sizes=\"(max-width: 425px) 100vw, 177px\" srcset=\"" + ___HTML_LOADER_REPLACEMENT_67___ + " 200w, " + ___HTML_LOADER_REPLACEMENT_68___ + " 500w\" type=\"image/jpeg\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_69___ + "\" alt=\"Harnessing the Power of the Sun: Exploring the World of Solar Energy\" class=\"blog__img\"> </picture> </div> <div class=\"blog__content\"> <h3 class=\"blog__title\"> Wind Power: A Breath of Fresh Air for Clean Energy Enthusiasts </h3> <footer class=\"blog__footer\"> <div class=\"blog__author\"> <div class=\"blog__avatar\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_70___ + "\" alt=\"Wade Warren - author\"> </div> Wade Warren </div> <div class=\"blog__divider\"></div> <div class=\"blog__created\"> 7 min read </div> </footer> </div> </article> <article class=\"blog__item\"> <div class=\"blog__preview\"> <picture> <source sizes=\"(max-width: 425px) 100vw, 177px\" srcset=\"" + ___HTML_LOADER_REPLACEMENT_71___ + " 200w, " + ___HTML_LOADER_REPLACEMENT_72___ + " 500w\" type=\"image/avif\"> <source sizes=\"(max-width: 425px) 100vw, 177px\" srcset=\"" + ___HTML_LOADER_REPLACEMENT_73___ + " 200w, " + ___HTML_LOADER_REPLACEMENT_74___ + " 500w\" type=\"image/webp\"> <source sizes=\"(max-width: 425px) 100vw, 177px\" srcset=\"" + ___HTML_LOADER_REPLACEMENT_75___ + " 200w, " + ___HTML_LOADER_REPLACEMENT_76___ + " 500w\" type=\"image/jpeg\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_77___ + "\" alt=\"Harnessing the Power of the Sun: Exploring the World of Solar Energy\" class=\"blog__img\"> </picture> </div> <div class=\"blog__content\"> <h3 class=\"blog__title\"> From Trash to Treasure: The Promising World of Biomass Energy </h3> <footer class=\"blog__footer\"> <div class=\"blog__author\"> <div class=\"blog__avatar\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_78___ + "\" alt=\"Jenny Wilson - author\"> </div> Jenny Wilson </div> <div class=\"blog__divider\"></div> <div class=\"blog__created\"> 12 min read </div> </footer> </div> </article> <article class=\"blog__item\"> <div class=\"blog__preview\"> <picture> <source sizes=\"(max-width: 425px) 100vw, 177px\" srcset=\"" + ___HTML_LOADER_REPLACEMENT_79___ + " 200w, " + ___HTML_LOADER_REPLACEMENT_80___ + " 500w\" type=\"image/avif\"> <source sizes=\"(max-width: 425px) 100vw, 177px\" srcset=\"" + ___HTML_LOADER_REPLACEMENT_81___ + " 200w, " + ___HTML_LOADER_REPLACEMENT_82___ + " 500w\" type=\"image/webp\"> <source sizes=\"(max-width: 425px) 100vw, 177px\" srcset=\"" + ___HTML_LOADER_REPLACEMENT_83___ + " 200w, " + ___HTML_LOADER_REPLACEMENT_84___ + " 500w\" type=\"image/jpeg\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_85___ + "\" alt=\"Harnessing the Power of the Sun: Exploring the World of Solar Energy\" class=\"blog__img\"> </picture> </div> <div class=\"blog__content\"> <h3 class=\"blog__title\"> Hydrogen: Fueling the Green Energy Revolution </h3> <footer class=\"blog__footer\"> <div class=\"blog__author\"> <div class=\"blog__avatar\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_62___ + "\" alt=\"Leslie Alexander - author\"> </div> Leslie Alexander </div> <div class=\"blog__divider\"></div> <div class=\"blog__created\"> 5 min read </div> </footer> </div> </article> </div> </div> </section> <section class=\"faq\"> <div class=\"container\"> <h2 class=\"title title_center\"> FAQ </h2> <div class=\"descr descr_center\"> Here you will find the answers to the frequently asked questions. </div> <div class=\"faq__list\"> <div class=\"accordion\"> <div class=\"accordion__header\"> <div class=\"accordion__title\">What is green energy?</div> <div class=\"accordion__icon\"> <span class=\"flowIcon flowIcon_plus\"></span> </div> </div> <div class=\"accordion__wrapper\"> <div class=\"accordion__descr\"> Green energy, also known as renewable energy, is derived from natural sources that are replenished on a human timescale. This includes solar, wind, hydro, geothermal, and biomass energy, among others. </div> </div> </div> <div class=\"accordion\"> <div class=\"accordion__header\"> <div class=\"accordion__title\">What is green energy?</div> <div class=\"accordion__icon\"> <span class=\"flowIcon flowIcon_plus\"></span> </div> </div> <div class=\"accordion__wrapper\"> <div class=\"accordion__descr\"> Green energy, also known as renewable energy, is derived from natural sources that are replenished on a human timescale. This includes solar, wind, hydro, geothermal, and biomass energy, among others. </div> </div> </div> <div class=\"accordion\"> <div class=\"accordion__header\"> <div class=\"accordion__title\">How does green energy benefit the environment?</div> <div class=\"accordion__icon\"> <span class=\"flowIcon flowIcon_plus\"></span> </div> </div> <div class=\"accordion__wrapper\"> <div class=\"accordion__descr\"> Green energy reduces the reliance on fossil fuels, lowering greenhouse gas emissions and mitigating climate change. It also helps conserve natural resources and promotes a cleaner, sustainable future. </div> </div> </div> <div class=\"accordion\"> <div class=\"accordion__header\"> <div class=\"accordion__title\">How does green energy benefit the environment?</div> <div class=\"accordion__icon\"> <span class=\"flowIcon flowIcon_plus\"></span> </div> </div> <div class=\"accordion__wrapper\"> <div class=\"accordion__descr\"> Green energy reduces the reliance on fossil fuels, lowering greenhouse gas emissions and mitigating climate change. It also helps conserve natural resources and promotes a cleaner, sustainable future. </div> </div> </div> <div class=\"accordion\"> <div class=\"accordion__header\"> <div class=\"accordion__title\">What green energy solutions does your company offer?</div> <div class=\"accordion__icon\"> <span class=\"flowIcon flowIcon_plus\"></span> </div> </div> <div class=\"accordion__wrapper\"> <div class=\"accordion__descr\"> We provide a range of green energy solutions, including solar power systems, wind turbines, energy-efficient appliances, and smart home technologies to enhance energy sustainability. </div> </div> </div> <div class=\"accordion\"> <div class=\"accordion__header\"> <div class=\"accordion__title\">What green energy solutions does your company offer?</div> <div class=\"accordion__icon\"> <span class=\"flowIcon flowIcon_plus\"></span> </div> </div> <div class=\"accordion__wrapper\"> <div class=\"accordion__descr\"> We provide a range of green energy solutions, including solar power systems, wind turbines, energy-efficient appliances, and smart home technologies to enhance energy sustainability. </div> </div> </div> <div class=\"accordion\"> <div class=\"accordion__header\"> <div class=\"accordion__title\">What support services do you offer after installing green energy solutions? </div> <div class=\"accordion__icon\"> <span class=\"flowIcon flowIcon_plus\"></span> </div> </div> <div class=\"accordion__wrapper\"> <div class=\"accordion__descr\"> We offer ongoing maintenance, monitoring, and support services to ensure the optimal performance and longevity of your green energy system. Our team is ready to assist with any issues that may arise. </div> </div> </div> <div class=\"accordion\"> <div class=\"accordion__header\"> <div class=\"accordion__title\">What support services do you offer after installing green energy solutions? </div> <div class=\"accordion__icon\"> <span class=\"flowIcon flowIcon_plus\"></span> </div> </div> <div class=\"accordion__wrapper\"> <div class=\"accordion__descr\"> We offer ongoing maintenance, monitoring, and support services to ensure the optimal performance and longevity of your green energy system. Our team is ready to assist with any issues that may arise. </div> </div> </div> <div class=\"accordion\"> <div class=\"accordion__header\"> <div class=\"accordion__title\">How do solar panels work?</div> <div class=\"accordion__icon\"> <span class=\"flowIcon flowIcon_plus\"></span> </div> </div> <div class=\"accordion__wrapper\"> <div class=\"accordion__descr\"> Solar panels convert sunlight into electricity through photovoltaic cells. These cells generate direct current (DC), which is then converted into usable alternating current (AC) for household or commercial use. </div> </div> </div> <div class=\"accordion\"> <div class=\"accordion__header\"> <div class=\"accordion__title\">How do solar panels work?</div> <div class=\"accordion__icon\"> <span class=\"flowIcon flowIcon_plus\"></span> </div> </div> <div class=\"accordion__wrapper\"> <div class=\"accordion__descr\"> Solar panels convert sunlight into electricity through photovoltaic cells. These cells generate direct current (DC), which is then converted into usable alternating current (AC) for household or commercial use. </div> </div> </div> </div> <div class=\"faq__information\"> <div class=\"information\"> <span class=\"customIcon\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_86___ + "\" alt=\"help\" class=\"flowIcon__img\"> </span> <div class=\"information__title\">Still have questions?</div> <div class=\"information__descr\"> For assistance, please visit our <a href=\"/\" class=\"information__link information__link_underline\">Contact Us</a> page or call our customer support hotline at <a href=\"tel:+16715550110\" class=\"information__link\">(671) 555-0110</a>. Our dedicated team is ready to help you on your journey to a greener, more sustainable future. </div> </div> </div> </div> </section> <section class=\"reviews\"> <div class=\"container\"> <h2 class=\"title title_center\"> What our customers say </h2> <div class=\"descr descr_center\"> Thousands of happy customers that changed their energy use </div> <div class=\"reviews__wrapper\"> <div class=\"reviews__carousel\"> <div class=\"review\"> <div class=\"review__stars\"> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> </div> <div class=\"review__text\"> “Flow transformed my energy use. Efficient, green tech, outstanding service!” </div> <div class=\"review__author\"> <div class=\"review__name\">Jenny Wilson</div> <div class=\"review__company\">Solar energy service</div> </div> </div> <div class=\"review\"> <div class=\"review__stars\"> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> </div> <div class=\"review__text\"> “Flow transformed my energy use. Efficient, green tech, outstanding service! 2” </div> <div class=\"review__author\"> <div class=\"review__name\">Jenny Wilson</div> <div class=\"review__company\">Solar energy service</div> </div> </div> <div class=\"review\"> <div class=\"review__stars\"> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> <div class=\"review__star\"> <span class=\"flowIcon flowIcon_star-fill\"></span> </div> </div> <div class=\"review__text\"> “Flow transformed my energy use. Efficient, green tech, outstanding service! 3” </div> <div class=\"review__author\"> <div class=\"review__name\">Jenny Wilson</div> <div class=\"review__company\">Solar energy service</div> </div> </div> </div> <div class=\"reviews__nav\"> <div class=\"reviews__prev\"> <button class=\"btn btn_link\"><span class=\"flowIcon flowIcon_arrow-left\"></span></button> </div> <div class=\"reviews__next\"> <button class=\"btn btn_link\"><span class=\"flowIcon flowIcon_arrow-right\"></span></button> </div> </div> </div> </div>  </section> <section class=\"subscription\"> <div class=\"subscription__bg\"> <div class=\"container\"> <div class=\"subscription__wrapper\"> <h2 class=\"title title_light\"> Your Source for Green Energy Updates </h2> <form class=\"subscription__form\"> <div class=\"subscription__input\"> <input type=\"email\" class=\"input\" placeholder=\"Your e-mail...\" required> </div> <button class=\"btn btn_secondary\">Get in touch</button> </form> </div> </div> </div> </section> <footer class=\"footer\"> <div class=\"container\"> <div class=\"footer__wrapper\"> <div class=\"logo\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\" class=\"logo__icon\" alt=\"flow logotype\"> </div> <div class=\"footer__nav\"> <ul class=\"navLinks\"> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">Platform</a></li> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">Solutions</a></li> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">How it works</a></li> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">Pricing</a></li> </ul> <ul class=\"navLinks\"> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">Company</a></li> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">About</a></li> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">Our Mission</a></li> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">Careers <span class=\"badge badge_secondary badge_strict\">HIRING</span></a></li> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">Contact</a></li> </ul> <ul class=\"navLinks\"> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">Resources</a></li> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">Blog</a></li> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">Help Center</a></li> <li class=\"navLinks__item\"><a href=\"/\" class=\"navLinks__link\">Support</a></li> </ul> </div> <div class=\"footer__socials\"> <a href=\"/\" class=\"socialLink\"> <span class=\"customIcon customIcon_circle\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_1___ + "\" alt=\"facebook\" class=\"flowIcon__img\"> </span> <span class=\"socialLink__text\"> Follow us on Facebook </span> </a> <a href=\"/\" class=\"socialLink\"> <span class=\"customIcon customIcon_circle\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\" alt=\"instagram\" class=\"flowIcon__img\"> </span> <span class=\"socialLink__text\"> Follow us on Instagram </span> </a> <a href=\"/\" class=\"socialLink\"> <span class=\"customIcon customIcon_circle\"> <img src=\"" + ___HTML_LOADER_REPLACEMENT_3___ + "\" alt=\"linkedin\" class=\"flowIcon__img\"> </span> <span class=\"socialLink__text\"> Follow us on LinkedIn </span> </a> </div> </div> <div class=\"footer__copyright\"> © 2024 Flow. All rights reserved. </div> </div> </footer> </body> </html>";
 // Exports
 /* harmony default export */ const pages = ((/* unused pure expression or super */ null && (code)));
 ;// CONCATENATED MODULE: ./src/pages/pages.js
