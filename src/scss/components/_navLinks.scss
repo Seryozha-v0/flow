@@ -5,6 +5,15 @@
   display: flex;
   flex-direction: column;
 
+  &__item {
+    display: flex;
+    align-items: center;
+    
+    .badge {
+      margin-left: 8px;
+    }
+  }
+
   &__link {
     @include body-200;
     color: var(--gray-800);
@@ -15,7 +24,7 @@
     color: var(--primary);
   }
 
-  &__item+&__item {
+  &__item + &__item {
     margin-top: 24px;
   }
 

@@ -7,6 +7,11 @@
   line-height: 1.33;
   text-align: center;
 
+  &_secondary {
+    color: var(--white);
+    background: var(--secondary-950);
+  }
+
   &_green {
     color: #192117;
     background: #d6f1cf;
@@ -20,5 +25,9 @@
   &_white {
     background: var(--white);
     border: 1px solid #D9DEDD;
+  }
+
+  &_strict {
+    border-radius: 6px;
   }
 }
