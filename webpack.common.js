@@ -39,7 +39,7 @@ module.exports = {
         use: { loader: 'babel-loader' },
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif|ttf|woff|woff2|eot|otf)$/i,
+        test: /\.(avif|webp|png|svg|jpg|jpeg|gif|ttf|woff|woff2|eot|otf)$/i,
         type: 'asset/resource',
         generator: {
           filename: (pathData) => pathData.filename.replace('src/', ''),
