@@ -304,8 +304,51 @@ document.addEventListener('DOMContentLoaded', () => {
     };
   });
 
+  const statstics = document.querySelector('.statistic');
+
+  const handleStatisticsValue = () => {
+    const numbColl = statstics.querySelectorAll('.statistic__numb');
+    const time = 1000;
+    const maxStep = 100;
+
+    numbColl.forEach((item) => {
+      const numbEl = item;
+      const { target } = numbEl.dataset;
+
+      const initialValue = +numbEl.textContent;
+      const difference = target - initialValue;
+      const stepsNeeded = Math.abs(difference);
+      const maxStepsPossible = Math.ceil((time / 1000) * maxStep);
+      const steps = Math.min(stepsNeeded, maxStepsPossible);
+      const step = difference / steps;
+
+      let value = initialValue;
+
+      const interval = setInterval(() => {
+        value += step;
+
+        if ((step > 0 && value >= target) || (step < 0 && value <= target)) {
+          clearInterval(interval);
+          value = target;
+        }
+
+        numbEl.textContent = value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+      }, time / steps);
+    });
+  };
+
+  const handleStatisticsActive = () => {
+    if (statstics.classList.contains('active')) return;
+
+    if (window.scrollY >= statstics.offsetTop - window.innerHeight / 2) {
+      statstics.classList.add('active');
+      handleStatisticsValue();
+    }
+  };
+
   window.onscroll = () => {
     handleHeaderSticky();
+    handleStatisticsActive();
   };
 
   window.onresize = (e) => {
