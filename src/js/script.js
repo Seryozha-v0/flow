@@ -1,5 +1,6 @@
 import { tns } from 'tiny-slider/src/tiny-slider';
 import { CONTAINER_CONTENT_WIDTH, CONTAINER_WIDTH, TRANSITION_DFLT } from './constants';
+import FormValidate from './formValidate';
 
 document.addEventListener('DOMContentLoaded', () => {
   let pageWidth = window.innerWidth;
@@ -362,4 +363,6 @@ document.addEventListener('DOMContentLoaded', () => {
       closeMobileNav();
     }
   };
+
+  FormValidate();
 });

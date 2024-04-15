@@ -1,0 +1,98 @@
+.form {
+
+  &__field {
+    position: relative;
+    padding: 24px 0;
+  }
+
+  &__label {
+    margin-left: 16px;
+    margin-right: 16px;
+
+    @include label-300;
+    color: var(--primary);
+  }
+
+  &__label+&__input {
+    margin-top: 4px;
+  }
+
+  &__input {
+    padding: 16px 20px;
+    width: 100%;
+    border: 2px solid transparent;
+    border-radius: 200px;
+    outline: 2px solid #D3DAD8;
+    outline-offset: 2px;
+    transition: .25s ease-in border-color, .15s ease-in outline-color;
+
+    @include body-200;
+
+    &::placeholder {
+      color: var(--gray-800);
+      transition: .25s ease-in color;
+    }
+
+    &:focus {
+      border-color: #032C22;
+      outline-color: #809590;
+
+      &::placeholder {
+        color: var(--primary);
+      }
+    }
+  }
+
+  &__hint {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 0px;
+    margin-left: 16px;
+    margin-right: 16px;
+
+    @include body-400;
+    color: var(--gray-800);
+
+    .flowIcon {
+      margin-right: 4px;
+    }
+  }
+
+  &__field_error {
+    .form {
+
+      &__input {
+        border-color: var(--error);
+        outline-color: #F9CFCF;
+      }
+
+      &__hint {
+        color: var(--error);
+      }
+
+    }
+  }
+
+  &_light .form {
+
+    &__input {
+      outline-color: transparent;
+    }
+
+    &__field_error {
+      .form {
+
+        &__input {
+          border-color: var(--error);
+          outline-color: transparent;
+        }
+
+        &__hint {
+          color: var(--error);
+        }
+
+      }
+    }
+  }
+}

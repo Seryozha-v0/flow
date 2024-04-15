@@ -17,14 +17,14 @@
     width: 50%;
   }
 
-  &__form {
+  .form {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     width: min(100%, 488px);
   }
 
-  &__input {
+  .form__field {
     margin-right: 8px;
     width: min(100%, 331px);
   }
